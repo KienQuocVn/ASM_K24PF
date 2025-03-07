@@ -17,13 +17,33 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = day5
 build_property.RootNamespace = day5
+<<<<<<< HEAD
 build_property.ProjectDir = C:\ASM_K24PF\
+=======
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Programming Course\Dotnet Project\Exam\ASM_K24PF\
+=======
+build_property.ProjectDir = C:\DEV\test\ASM_K24PF\
+>>>>>>> a0260f6533c50840fb85fcbcff32925799a3d1ed
+>>>>>>> 58f5b3d9a69fb96b9cc33ed2aea84432bdb4834d
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\ASM_K24PF
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
+=======
+<<<<<<< HEAD
+build_property.MSBuildProjectDirectory = C:\Programming Course\Dotnet Project\Exam\ASM_K24PF
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+=======
+build_property.MSBuildProjectDirectory = C:\DEV\test\ASM_K24PF
+build_property._RazorSourceGeneratorDebug = 
+>>>>>>> a0260f6533c50840fb85fcbcff32925799a3d1ed
+>>>>>>> 58f5b3d9a69fb96b9cc33ed2aea84432bdb4834d
