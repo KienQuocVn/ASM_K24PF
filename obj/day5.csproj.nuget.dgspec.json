@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VTC\\HK1\\OOA&D\\day5\\day5\\day5.csproj": {}
+    "C:\\DEV\\test\\ASM_K24PF\\day5.csproj": {}
   },
   "projects": {
-    "D:\\VTC\\HK1\\OOA&D\\day5\\day5\\day5.csproj": {
+    "C:\\DEV\\test\\ASM_K24PF\\day5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VTC\\HK1\\OOA&D\\day5\\day5\\day5.csproj",
+        "projectUniqueName": "C:\\DEV\\test\\ASM_K24PF\\day5.csproj",
         "projectName": "day5",
-        "projectPath": "D:\\VTC\\HK1\\OOA&D\\day5\\day5\\day5.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "D:\\VTC\\HK1\\OOA&D\\day5\\day5\\obj\\",
+        "projectPath": "C:\\DEV\\test\\ASM_K24PF\\day5.csproj",
+        "packagesPath": "C:\\Users\\Duy An\\.nuget\\packages\\",
+        "outputPath": "C:\\DEV\\test\\ASM_K24PF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Duy An\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -63,6 +63,8 @@
               "version": "[9.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.2, )"
             },
@@ -90,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
