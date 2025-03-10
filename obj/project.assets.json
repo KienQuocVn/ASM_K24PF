@@ -5183,63 +5183,32 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\PC\\.nuget\\packages\\": {},
-=======
-<<<<<<< HEAD
-    "C:\\Users\\bosco\\.nuget\\packages\\": {},
-=======
     "C:\\Users\\Duy An\\.nuget\\packages\\": {},
->>>>>>> a0260f6533c50840fb85fcbcff32925799a3d1ed
->>>>>>> 58f5b3d9a69fb96b9cc33ed2aea84432bdb4834d
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\ASM_K24PF\\day5.csproj",
+      "projectUniqueName": "C:\\DEV\\c\\ASM_K24PF\\day5.csproj",
       "projectName": "day5",
-      "projectPath": "C:\\ASM_K24PF\\day5.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\ASM_K24PF\\obj\\",
-=======
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Programming Course\\Dotnet Project\\Exam\\ASM_K24PF\\day5.csproj",
-      "projectName": "day5",
-      "projectPath": "C:\\Programming Course\\Dotnet Project\\Exam\\ASM_K24PF\\day5.csproj",
-      "packagesPath": "C:\\Users\\bosco\\.nuget\\packages\\",
-      "outputPath": "C:\\Programming Course\\Dotnet Project\\Exam\\ASM_K24PF\\obj\\",
-=======
-      "projectUniqueName": "C:\\DEV\\test\\ASM_K24PF\\day5.csproj",
-      "projectName": "day5",
-      "projectPath": "C:\\DEV\\test\\ASM_K24PF\\day5.csproj",
+      "projectPath": "C:\\DEV\\c\\ASM_K24PF\\day5.csproj",
       "packagesPath": "C:\\Users\\Duy An\\.nuget\\packages\\",
-      "outputPath": "C:\\DEV\\test\\ASM_K24PF\\obj\\",
->>>>>>> a0260f6533c50840fb85fcbcff32925799a3d1ed
->>>>>>> 58f5b3d9a69fb96b9cc33ed2aea84432bdb4834d
+      "outputPath": "C:\\DEV\\c\\ASM_K24PF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
-=======
-<<<<<<< HEAD
-        "C:\\Users\\bosco\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "C:\\Users\\Duy An\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> a0260f6533c50840fb85fcbcff32925799a3d1ed
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
->>>>>>> 58f5b3d9a69fb96b9cc33ed2aea84432bdb4834d
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5257,8 +5226,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -5298,24 +5266,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.13, 8.0.13]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5324,16 +5274,16 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
-=======
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
->>>>>>> a0260f6533c50840fb85fcbcff32925799a3d1ed
->>>>>>> 58f5b3d9a69fb96b9cc33ed2aea84432bdb4834d
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\DEV\\c\\ASM_K24PF\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
