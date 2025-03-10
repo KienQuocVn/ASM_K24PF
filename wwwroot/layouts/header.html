@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row py-3 border-bottom">
+
+            <div class="col-sm-4 col-lg-2 text-center text-sm-start">
+                <div class="main-logo">
+                    <a href="index.html">
+                        <img src="../wwwroot/images/logo.png" alt="logo" class="img-fluid ms-4 mt-2"
+                            style="width: 150px;">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-8 d-flex align-items-center justify-content-center">
+                <div class="search-bar bg-light p-2 rounded-4 w-100">
+                    <div class="input-group">
+                        <div class="input-group-prepend d-none d-md-block">
+                            <select class="form-select border-0 bg-transparent">
+                                <option>All Categories</option>
+                                <option>Groceries</option>
+                                <option>Drinks</option>
+                                <option>Chocolates</option>
+                            </select>
+                        </div>
+                        <input type="text" class="form-control border-0 bg-transparent"
+                            placeholder="Search for more than 20,000 products">
+                        <button class="btn border-0 bg-transparent">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div
+                class="col-sm-8 col-lg-2 d-flex justify-content-end gap-5 align-items-center mt-4 mt-sm-0 justify-content-center justify-content-sm-end">
+
+
+                <ul class="d-flex justify-content-end list-unstyled m-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="countryDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-earth-americas me-1"></i>Country</a>
+                        <ul class="dropdown-menu" aria-labelledby="countryDropdown">
+                            <li><a class="dropdown-item" href="#"><img src="https://flagcdn.com/16x12/us.png"
+                                        alt="United States" class="me-1">United States</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="https://flagcdn.com/16x12/gb.png"
+                                        alt="United Kingdom" class="me-1">United Kingdom</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="https://flagcdn.com/16x12/ca.png"
+                                        alt="Canada" class="me-1">Canada</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="https://flagcdn.com/16x12/au.png"
+                                        alt="Australia" class="me-1">Australia</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link ms-4"> Help </a>
+                    </li>
+                    <li>
+                        <a class="nav-link ms-4" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-person" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link ms-4 me-2" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-cart2" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row py-1 ms-5">
+            <div class="d-flex  justify-content-center justify-content-sm-between align-items-center">
+                <nav class="main-menu d-flex navbar navbar-expand-lg">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+
+                        <div class="offcanvas-header justify-content-center">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+
+                        <div class="offcanvas-body">
+
+                            <ul class="navbar-nav justify-content-end menu-list list-unstyled d-flex gap-md-3 mb-0">
+                                <li class="nav-item active">
+                                    <a href="../wwwroot/index.html" class="nav-link">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a href="../wwwroot/product.html" class="nav-link">Products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../wwwroot/about.html" class="nav-link">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../wwwroot/contact.html" class="nav-link">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../wwwroot/blogs.html" class="nav-link">Blog</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

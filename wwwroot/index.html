@@ -1,232 +1,1691 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Site Metas -->
-  <meta name="keywords" content="bootstrap, bootstrap4" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  		<!-- Google Fonts -->
-  		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-		<!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-		<link href="/css/style.css" rel="stylesheet">
-        <link rel="stylesheet" href="/css/hero.css">
-        <link rel="stylesheet" href="/css/button.css">
-        <link rel="stylesheet" href="/css/navbar.css">
-        <link rel="stylesheet" href="/css/footer.css">
-		<link rel="stylesheet" href="/css/form-control.css">
-		<link rel="stylesheet" href="/css/blog-section.css">
-		<link rel="stylesheet" href="/css/review.css">
-		<title>Home Page</title>
-	</head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="../wwwroot/js/loadLayout.js" defer></script>
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Site Metas -->
+	<meta name="keywords" content="bootstrap, bootstrap4" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="../wwwroot/css/footer.css">
+	<link rel="stylesheet" href="../wwwroot/css/index.css">
 
-	<body>
-        <!-- Start Header/Navigation 1 -->
-		<nav class="custom-navbar1 navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Shofy navigation bar">
-			<div class="container">
-				<a class="navbar-brand" href="/index.html">Shofy<span>.</span></a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsShofy" aria-controls="navbarsShofy" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+	<title>Home</title>
+</head>
 
-				<div class="collapse navbar-collapse" id="navbarsShofy">
-                    <form class="search-bar d-flex me-auto" role="search">
-                        <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success ms-2" type="submit" aria-label="Search">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                    </form>
-					<ul class="navbar-nav ms-auto">
-						<li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="countryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-earth-americas me-1"></i>Country</a>
-                            <ul class="dropdown-menu" aria-labelledby="countryDropdown">
-                                <li><a class="dropdown-item" href="#"><img src="https://flagcdn.com/16x12/us.png" alt="United States" class="me-1">United States</a></li>
-                                <li><a class="dropdown-item" href="#"><img src="https://flagcdn.com/16x12/gb.png" alt="United Kingdom" class="me-1">United Kingdom</a></li>
-                                <li><a class="dropdown-item" href="#"><img src="https://flagcdn.com/16x12/ca.png" alt="Canada" class="me-1">Canada</a></li>
-                                <li><a class="dropdown-item" href="#"><img src="https://flagcdn.com/16x12/au.png" alt="Australia" class="me-1">Australia</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-divider"></li>
-						<li><a class="nav-link" href="#">Account</a></li>
-                        <li class="dropdown-divider"></li>
-						<li><a class="nav-link" href="#">Help</a></li>
-					</ul>
-					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-						<li><a class="nav-link" href="#"><img src="/images/user.svg" aria-label="user"></a></li>
-						<li><a class="nav-link" href="/cart.html"><img src="/images/cart.svg" aria-label="cart"></a></li>
-					</ul>
-				</div>
-			</div>	
-		</nav>
-		<!-- End Header/Navigation 1 -->
-
-		<!-- Start Header/Navigation 2 -->
-		<nav class="custom-navbar2 navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Shofy navigation bar">
-			<div class="container">
-				<div class="collapse navbar-collapse" id="navbarsShofy">
-					<ul class="navbar-nav me-auto">
-						<li><a class="nav-link active" href="/index.html">Home</a></li>
-                        <li><a class="nav-link" href="/product.html">Product</a></li>
-                        <li><a class="nav-link" href="/about.html">About us</a></li>
-                        <li><a class="nav-link" href="/blogs.html">Blog</a></li>
-                        <li><a class="nav-link" href="/contact.html">Contact us</a></li>
-					</ul>
-				</div>
-			</div>		
-		</nav>
-		<!-- End Header/Navigation 2 -->
-
-		<!-- Start Hero Section -->
-			<div class="hero">
-				<div class="container">
-					<div class="row align-items-center text-center text-md-start">
-						<div class="col-md-6">
-                            <h1 class="hero-title">_ 2025 _<span class="d-block">ROG Gaming Laptop</span></h1>
-                            <p class="hero-description">Prepare to dominate the battlefield with the incredible power and flexibility of the AMD Ryzen™ AI Max+ 395 processor and Windows 11. With a performance level typically reserved for , this next-gen CPU features unified memory design, taking AI to the next level. <br>The Flow Z13 not only powers your gaming and creative tasks but is capable of running large language models with 70 billion parameters — an impressive feat for a 13-inch laptop — giving you access to cutting-edge AI tools and running them locally.</p>
-                            <div class="hero-buttons">
-                                <a href="/product.html" class="btn btn-secondary me-2">Shop Now</a>
-                                <a href="/about.html" class="btn btn-white-outline">Explore</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 text-center">
-                            <div class="laptop-container">
-                                <img src="https://dlcdnwebimgs.asus.com/files/media/2523515c-4a57-41a5-9004-67490621ae51/v1/images/large/1x/kv_z13_front.webp" class="part screen" id="screen" alt="Laptop Screen">
-                                <img src="https://dlcdnwebimgs.asus.com/files/media/2523515c-4a57-41a5-9004-67490621ae51/v1/images/large/1x/kv_z13_keyboard.webp" class="part keyboard" id="keyboard" alt="Laptop Keyboard">
-                                <img src="https://dlcdnwebimgs.asus.com/files/media/2523515c-4a57-41a5-9004-67490621ae51/v1/images/large/1x/kv_z13_back.webp" class="part back-cover" id="back-cover" alt="Laptop Back Cover">
-                            </div>
-                        </div>                        
-					</div>
+<body>
+	<div id="header"></div>
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+				aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+				aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+				aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="https://file.hstatic.net/200000722513/file/banner_web_slider_800x400_1199a3adfc23489798d4163a97f3bc62.jpg"
+					class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Top màn bán chạy</h5>
+					<p>BEST SELLER (24 INCH - 27 INCH - ĐỒ HỌA - CAO CẤP)</p>
 				</div>
 			</div>
-		<!-- End Hero Section -->
+			<div class="carousel-item">
+				<img src="https://file.hstatic.net/200000722513/file/banner_homepage_acer_rtx_5000.jpg"
+					class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Laptop GeForce RTX 50 Series</h5>
+					<p>ĐẶT HÀNG SỚM - ƯU ĐÃI KHỦNG</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="https://file.hstatic.net/200000722513/file/banner_homepage_msi_rtx_5000.jpg"
+					class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Laptop Gaming MSI</h5>
+					<p>ĐẶT MUA SỚM - NHẬN QUÀ KHỦNG</p>
+				</div>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+			data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+			data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
 
-		<section class="section-heading">
-			<h2 class="page-title">Home</h2>
-		</section>
+	<section class="py-5">
+		<div class="container-fluid">
 
-		<!-- Start Footer Section -->
-		<footer class="footer-section">
-			<div class="container relative">
+			<div class="row">
+				<div class="col-md-12">
 
-				<div class="sofa-img">
-					<img src="/images/Strix-G18.png" alt="Image" class="img-fluid">
+					<div class="bootstrap-tabs product-tabs">
+						<div class="tabs-header d-flex justify-content-between border-bottom my-5">
+							<h3>Trending Products</h3>
+							<nav>
+								<div class="nav nav-tabs" id="nav-tab" role="tablist">
+									<a href="#" class="nav-link text-uppercase fs-6 active" id="nav-all-tab"
+										data-bs-toggle="tab" data-bs-target="#nav-all">All</a>
+									<a href="#" class="nav-link text-uppercase fs-6" id="nav-fruits-tab"
+										data-bs-toggle="tab" data-bs-target="#nav-fruits">Gaming</a>
+									<a href="#" class="nav-link text-uppercase fs-6" id="nav-juices-tab"
+										data-bs-toggle="tab" data-bs-target="#nav-juices">Đồ họa</a>
+								</div>
+							</nav>
+						</div>
+						<div class="tab-content" id="nav-tabContent">
+							<div class="tab-pane fade show active" id="nav-all" role="tabpanel"
+								aria-labelledby="nav-all-tab">
+
+								<div
+									class="product-grid row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+
+									<div class="col">
+										<div class="product-item">
+											<span class="badge bg-success position-absolute m-3">-30%</span>
+											<a href="#" class="btn-wishlist">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg>
+											</a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 1</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<span class="badge bg-success position-absolute m-3">-30%</span>
+											<a href="#" class="btn-wishlist">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg>
+											</a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 2</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 3</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 4</h3>
+											<span class="qty">1 Unit</span>
+											<span class="rating">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill " viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 5</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 6</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 7</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 8</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 9</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 10</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<!-- / product-grid -->
+
+							</div>
+
+							<div class="tab-pane fade" id="nav-fruits" role="tabpanel" aria-labelledby="nav-fruits-tab">
+
+								<div
+									class="product-grid row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+
+									<div class="col">
+										<div class="product-item">
+											<span class="badge bg-success position-absolute m-3">-30%</span>
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 11</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<span class="badge bg-success position-absolute m-3">-30%</span>
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 12</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<span class="badge bg-success position-absolute m-3">-30%</span>
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 13</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 14</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 15</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 16</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<!-- / product-grid -->
+
+							</div>
+							<div class="tab-pane fade" id="nav-juices" role="tabpanel" aria-labelledby="nav-juices-tab">
+
+								<div
+									class="product-grid row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 17</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 18</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 19</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 20</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 21</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="product-item">
+											<a href="#" class="btn-wishlist"><svg xmlns="http://www.w3.org/2000/svg"
+													width="16" height="16" fill="currentColor" class="bi bi-heart"
+													viewBox="0 0 16 16">
+													<path
+														d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+												</svg></a>
+											<figure>
+												<a href="index.html" title="Product Title">
+													<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_45.png"
+														class="tab-image">
+												</a>
+											</figure>
+											<h3>Laptop 22</h3>
+											<span class="qty">1 Unit</span><span class="rating"><svg
+													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+													fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+													<path
+														d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+												</svg> 4.5</span>
+											<span class="price">$18.00</span>
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="input-group product-qty">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-left-minus btn btn-danger btn-number"
+															data-type="minus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-dash"
+																viewBox="0 0 16 16">
+																<path
+																	d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+															</svg>
+														</button>
+													</span>
+													<input type="text" id="quantity" name="quantity"
+														class="form-control input-number" value="1">
+													<span class="input-group-btn">
+														<button type="button"
+															class="quantity-right-plus btn btn-success btn-number"
+															data-type="plus">
+															<svg xmlns="http://www.w3.org/2000/svg" width="16"
+																height="16" fill="currentColor" class="bi bi-plus"
+																viewBox="0 0 16 16">
+																<path
+																	d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+															</svg>
+														</button>
+													</span>
+												</div>
+												<a href="#" class="nav-link">Add to Cart <iconify-icon
+														icon="uil:shopping-cart"></a>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<!-- / product-grid -->
+
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Start Why Choose Us Section -->
+	<div class="why-choose-section">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-lg-6">
+					<h2 class="section-title">Why Choose Us</h2>
+					<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit
+						imperdiet dolor tempor tristique.</p>
+
+					<div class="row my-5">
+						<div class="col-6 col-md-6">
+							<div class="feature">
+								<div class="icon">
+									<img src="images/truck.svg" alt="Image" class="imf-fluid">
+								</div>
+								<h3>Fast &amp; Free Shipping</h3>
+								<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+									vulputate.</p>
+							</div>
+						</div>
+
+						<div class="col-6 col-md-6">
+							<div class="feature">
+								<div class="icon">
+									<img src="images/bag.svg" alt="Image" class="imf-fluid">
+								</div>
+								<h3>Easy to Shop</h3>
+								<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+									vulputate.</p>
+							</div>
+						</div>
+
+						<div class="col-6 col-md-6">
+							<div class="feature">
+								<div class="icon">
+									<img src="images/support.svg" alt="Image" class="imf-fluid">
+								</div>
+								<h3>24/7 Support</h3>
+								<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+									vulputate.</p>
+							</div>
+						</div>
+
+						<div class="col-6 col-md-6">
+							<div class="feature">
+								<div class="icon">
+									<img src="images/return.svg" alt="Image" class="imf-fluid">
+								</div>
+								<h3>Hassle Free Returns</h3>
+								<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+									vulputate.</p>
+							</div>
+						</div>
+
+					</div>
 				</div>
 
-				<div class="row">
-					<div class="col-lg-8">
-						<div class="subscription-form">
-							<h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
+				<div class="col-lg-5">
+					<div class="img-wrap">
+						<img src="https://cdn2.fptshop.com.vn/unsafe/800x0/cpu_laptop_225faaa956.webp" alt="Image"
+							class="img-fluid">
+					</div>
+				</div>
 
-							<form action="#" class="row g-3">
-								<div class="col-auto">
-									<input type="text" class="form-control" placeholder="Enter your name">
+			</div>
+		</div>
+	</div>
+	<!-- End Why Choose Us Section -->
+
+	<!-- Start We Help Section -->
+	<div class="we-help-section">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-lg-7 mb-5 mb-lg-0">
+					<div class="imgs-grid">
+						<div class="grid grid-1"><img
+								src="https://cdn2.fptshop.com.vn/unsafe/800x0/may_tinh_laptop_gigabyte_4bd1600c1c.webp"
+								alt="Untree.co"></div>
+						<div class="grid grid-2"><img
+								src="https://cdn2.fptshop.com.vn/small/may_tinh_laptop_asus_582ccbe074.webp"
+								alt="Untree.co"></div>
+						<div class="grid grid-3"><img
+								src="https://cdn2.fptshop.com.vn/unsafe/800x0/dong_laptop_mong_nhe_18ecd081b5.webp"
+								alt="Untree.co"></div>
+					</div>
+				</div>
+				<div class="col-lg-5 ps-lg-5">
+					<h2 class="section-title mb-4">We Help You Make Modern Interior Design</h2>
+					<p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada.
+						Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque
+						habitant morbi tristique senectus et netus et malesuada</p>
+
+					<ul class="list-unstyled custom-list my-4">
+						<li>Donec vitae odio quis nisl dapibus malesuada</li>
+						<li>Donec vitae odio quis nisl dapibus malesuada</li>
+						<li>Donec vitae odio quis nisl dapibus malesuada</li>
+						<li>Donec vitae odio quis nisl dapibus malesuada</li>
+					</ul>
+					<p><a herf="#" class="btn">Explore</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End We Help Section -->
+
+	<section class="py-5">
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-md-6">
+					<div class="banner-ad bg-danger mb-3"
+						style="background: url('images/ad-image-3.png');background-repeat: no-repeat;background-position: right bottom;">
+						<div class="banner-content p-5">
+
+							<div class="categories text-primary fs-3 fw-bold">Upto 25% Off</div>
+							<h3 class="banner-title">Laptop 1</h3>
+							<p>Laptop Acer Gaming Aspire 7 A715-76-53PJ</p>
+							<a href="#" class="btn btn-dark text-uppercase">Show Now</a>
+
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="banner-ad bg-info"
+						style="background: url('images/ad-image-4.png');background-repeat: no-repeat;background-position: right bottom;">
+						<div class="banner-content p-5">
+
+							<div class="categories text-primary fs-3 fw-bold">Upto 25% Off</div>
+							<h3 class="banner-title">Laptop 2</h3>
+							<p>Laptop Acer Gaming Aspire 7 A715-76-53PJ</p>
+							<a href="#" class="btn btn-dark text-uppercase">Show Now</a>
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="py-5">
+		<div class="container-fluid">
+
+			<div class="bg-secondary py-5 my-5 rounded-5"
+				style="background: url('images/bg-leaves-img-pattern.png') no-repeat;">
+				<div class="container my-5">
+					<div class="row">
+						<div class="col-md-6 p-5">
+							<div class="section-header">
+								<h2 class="section-title display-4">Get <span class="text-primary">25% Discount</span>
+									on your first purchase</h2>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst amet, metus, sit massa
+								posuere maecenas. At tellus ut nunc amet vel egestas.</p>
+						</div>
+						<div class="col-md-6 p-5">
+							<form>
+								<div class="mb-3">
+									<label for="name" class="form-label">Name</label>
+									<input type="text" class="form-control form-control-lg" name="name" id="name"
+										placeholder="Name">
 								</div>
-								<div class="col-auto">
-									<input type="email" class="form-control" placeholder="Enter your email">
+								<div class="mb-3">
+									<label for="" class="form-label">Email</label>
+									<input type="email" class="form-control form-control-lg" name="email" id="email"
+										placeholder="abc@mail.com">
 								</div>
-								<div class="col-auto">
-									<button class="btn btn-primary" type="submit" aria-label="submit">
-										<span class="fa fa-paper-plane"></span>
-									</button>
+								<div class="form-check form-check-inline mb-3">
+									<label class="form-check-label" for="subscribe">
+										<input class="form-check-input" type="checkbox" id="subscribe"
+											value="subscribe">
+										Subscribe to the newsletter</label>
+								</div>
+								<div class="d-grid gap-2">
+									<button type="submit" class="btn btn-dark btn-lg">Submit</button>
 								</div>
 							</form>
 
 						</div>
-					</div>
-				</div>
 
-				<div class="row g-5 mb-5">
-					<div class="col-lg-4">
-						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Shofy<span>.</span></a></div>
-						<p class="mb-4 text">We always search for the incredible, and we believe that you, too, share our passion for minimizing our environmental impact on the world. Our serious commitment to environment, social, and governance (ESG) issues aims to empower you and everyone else we work with to push forward for a more sustainable future. Let’s become sustainable — together.</p>
-
-						<ul class="list-unstyled custom-social">
-							<li><a href="https://www.facebook.com/" aria-label="Facebook"><span class="fa fa-brands fa-facebook-f"></span></a></li>
-							<li><a href="https://x.com/" aria-label="Twitter"><span class="fa fa-brands fa-twitter"></span></a></li>
-							<li><a href="https://www.instagram.com/" aria-label="Instagram"><span class="fa fa-brands fa-instagram"></span></a></li>
-							<li><a href="https://www.linkedin.com/" aria-label="Linkedin"><span class="fa fa-brands fa-linkedin"></span></a></li>
-						</ul>
-					</div>
-
-					<div class="col-lg-8">
-						<div class="row links-wrap">
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">About us</a></li>
-									<li><a href="#">Product</a></li>
-									<li><a href="#">Blog</a></li>
-									<li><a href="#">Contact us</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Support</a></li>
-									<li><a href="#">Knowledge base</a></li>
-									<li><a href="#">Live chat</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Jobs</a></li>
-									<li><a href="#">Our team</a></li>
-									<li><a href="#">Leadership</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Laptops</a></li>
-									<li><a href="#">Gears</a></li>
-									<li><a href="#">Accessories</a></li>
-								</ul>
-							</div>
-						</div>
 					</div>
 
 				</div>
-
-				<div class="border-top copyright">
-					<div class="row pt-4">
-						<div class="col-lg-8">
-							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
-                            </p>
-						</div>
-
-						<div class="col-lg-4 text-center text-lg-end">
-							<ul class="list-unstyled d-inline-flex ms-auto">
-								<li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-							</ul>
-						</div>
-
-					</div>
-				</div>
-
 			</div>
-		</footer>
-		<!-- End Footer Section -->	
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-		<script src="/script/custom.js"></script>
-		<!-- Assembling parts animation -->
-        <script>
-            window.onload = function() 
-            {
-                setTimeout(() => document.getElementById('screen').classList.add('assembled'), 200);
-                setTimeout(() => document.getElementById('keyboard').classList.add('assembled'), 400);
-                setTimeout(() => document.getElementById('back-cover').classList.add('assembled'), 600);
-            };
-        </script>
-	</body>
+		</div>
+	</section>
+
+	<section id="latest-blog" class="py-5">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="section-header d-flex align-items-center justify-content-between my-5">
+					<h2 class="section-title">Our Recent Blog</h2>
+					<div class="btn-wrap align-right">
+						<a href="#" class="d-flex align-items-center nav-link">Read All Articles <svg width="24"
+								height="24">
+								<use xlink:href="#arrow-right"></use>
+							</svg></a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<article class="post-item card border-0 shadow-sm p-3">
+						<div class="image-holder zoom-effect">
+							<a href="#">
+								<img src="images/post-thumb-1.jpg" alt="post" class="card-img-top">
+							</a>
+						</div>
+						<div class="card-body">
+							<div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
+								<div class="meta-date"><svg width="16" height="16">
+										<use xlink:href="#calendar"></use>
+									</svg>22 Aug 2021</div>
+								<div class="meta-categories"><svg width="16" height="16">
+										<use xlink:href="#category"></use>
+									</svg>tips & tricks</div>
+							</div>
+							<div class="post-header">
+								<h3 class="post-title">
+									<a href="#" class="text-decoration-none">Top 10 casual look ideas to dress up your
+										kids</a>
+								</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim
+									tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...</p>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="col-md-4">
+					<article class="post-item card border-0 shadow-sm p-3">
+						<div class="image-holder zoom-effect">
+							<a href="#">
+								<img src="images/post-thumb-2.jpg" alt="post" class="card-img-top">
+							</a>
+						</div>
+						<div class="card-body">
+							<div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
+								<div class="meta-date"><svg width="16" height="16">
+										<use xlink:href="#calendar"></use>
+									</svg>25 Aug 2021</div>
+								<div class="meta-categories"><svg width="16" height="16">
+										<use xlink:href="#category"></use>
+									</svg>trending</div>
+							</div>
+							<div class="post-header">
+								<h3 class="post-title">
+									<a href="#" class="text-decoration-none">Latest trends of wearing street wears
+										supremely</a>
+								</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim
+									tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...</p>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="col-md-4">
+					<article class="post-item card border-0 shadow-sm p-3">
+						<div class="image-holder zoom-effect">
+							<a href="#">
+								<img src="images/post-thumb-3.jpg" alt="post" class="card-img-top">
+							</a>
+						</div>
+						<div class="card-body">
+							<div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
+								<div class="meta-date"><svg width="16" height="16">
+										<use xlink:href="#calendar"></use>
+									</svg>28 Aug 2021</div>
+								<div class="meta-categories"><svg width="16" height="16">
+										<use xlink:href="#category"></use>
+									</svg>inspiration</div>
+							</div>
+							<div class="post-header">
+								<h3 class="post-title">
+									<a href="#" class="text-decoration-none">10 Different Types of comfortable clothes
+										ideas for women</a>
+								</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim
+									tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...</p>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div id="footer"></div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+</body>
 
 </html>
-

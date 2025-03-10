@@ -1,755 +1,692 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Site Metas -->
-  <meta name="keywords" content="bootstrap, bootstrap4" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-		<!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-		<link href="/css/style.css" rel="stylesheet">
-        <link rel="stylesheet" href="/css/hero.css">
-        <link rel="stylesheet" href="/css/button.css">
-        <link rel="stylesheet" href="/css/navbar.css">
-        <link rel="stylesheet" href="/css/footer.css">
-		<link rel="stylesheet" href="/css/form-control.css">
-		<link rel="stylesheet" href="/css/blog-section.css">
-		<link rel="stylesheet" href="/css/review.css">
-		<title>Blogs</title>
-	</head>
+	<!-- Basic -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Site Metas -->
+	<meta name="keywords" content="bootstrap, bootstrap4" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link href="../wwwroot/css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="../wwwroot/css/hero.css">
+	<link rel="stylesheet" href="../wwwroot/css/button.css">
+	<link rel="stylesheet" href="../wwwroot/css/navbar.css">
+	<link rel="stylesheet" href="../wwwroot/css/footer.css">
+	<link rel="stylesheet" href="../wwwroot/css/blog-section.css">
+	<link rel="stylesheet" href="../wwwroot/css/review.css">
+	<title>Blogs</title>
+	<script src="../wwwroot/js/loadLayout.js" defer></script>
+</head>
 
-	<body>
-        <!-- Start Header/Navigation 1 -->
-		<nav class="custom-navbar1 navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Shofy navigation bar">
-			<div class="container">
-				<a class="navbar-brand" href="/index.html">Shofy<span>.</span></a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsShofy" aria-controls="navbarsShofy" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+<body>
 
-				<div class="collapse navbar-collapse" id="navbarsShofy">
-                    <form class="search-bar d-flex me-auto" role="search">
-                        <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success ms-2" type="submit" aria-label="Search">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                    </form>
-					<ul class="navbar-nav ms-auto">
-						<li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="countryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-earth-americas me-1"></i>Country</a>
-                            <ul class="dropdown-menu" aria-labelledby="countryDropdown">
-                                <li><a class="dropdown-item" href="#"><img src="https://flagcdn.com/16x12/us.png" alt="United States" class="me-1">United States</a></li>
-                                <li><a class="dropdown-item" href="#"><img src="https://flagcdn.com/16x12/gb.png" alt="United Kingdom" class="me-1">United Kingdom</a></li>
-                                <li><a class="dropdown-item" href="#"><img src="https://flagcdn.com/16x12/ca.png" alt="Canada" class="me-1">Canada</a></li>
-                                <li><a class="dropdown-item" href="#"><img src="https://flagcdn.com/16x12/au.png" alt="Australia" class="me-1">Australia</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-divider"></li>
-						<li><a class="nav-link" href="#">Account</a></li>
-                        <li class="dropdown-divider"></li>
-						<li><a class="nav-link" href="#">Help</a></li>
-					</ul>
-					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-						<li><a class="nav-link" href="#"><img src="/images/user.svg" aria-label="user"></a></li>
-						<li><a class="nav-link" href="/cart.html"><img src="/images/cart.svg" aria-label="cart"></a></li>
-					</ul>
-				</div>
-			</div>	
-		</nav>
-		<!-- End Header/Navigation 1 -->
+	<div id="header"></div>
 
-		<!-- Start Header/Navigation 2 -->
-		<nav class="custom-navbar2 navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Shofy navigation bar">
-			<div class="container">
-				<div class="collapse navbar-collapse" id="navbarsShofy">
-					<ul class="navbar-nav me-auto">
-						<li><a class="nav-link" href="/index.html">Home</a></li>
-                        <li><a class="nav-link" href="/product.html">Product</a></li>
-                        <li><a class="nav-link" href="/about.html">About us</a></li>
-                        <li><a class="nav-link active" href="/blogs.html">Blog</a></li>
-                        <li><a class="nav-link" href="/contact.html">Contact us</a></li>
-					</ul>
-				</div>
-			</div>		
-		</nav>
-		<!-- End Header/Navigation 2 -->
+	<section class="section-heading">
+		<h2 class="page-title">Blog</h2>
+	</section>
 
-		<!-- Start Hero Section -->
-			<div class="hero">
-				<div class="container">
-					<div class="row align-items-center text-center text-md-start">
-						<div class="col-md-6">
-                            <h1 class="hero-title">_ 2025 _<span class="d-block">ROG Gaming Laptop</span></h1>
-                            <p class="hero-description">Prepare to dominate the battlefield with the incredible power and flexibility of the AMD Ryzen™ AI Max+ 395 processor and Windows 11. With a performance level typically reserved for , this next-gen CPU features unified memory design, taking AI to the next level. <br>The Flow Z13 not only powers your gaming and creative tasks but is capable of running large language models with 70 billion parameters — an impressive feat for a 13-inch laptop — giving you access to cutting-edge AI tools and running them locally.</p>
-                            <div class="hero-buttons">
-                                <a href="/product.html" class="btn btn-secondary me-2">Shop Now</a>
-                                <a href="/about.html" class="btn btn-white-outline">Explore</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 text-center">
-                            <div class="laptop-container">
-                                <img src="https://dlcdnwebimgs.asus.com/files/media/2523515c-4a57-41a5-9004-67490621ae51/v1/images/large/1x/kv_z13_front.webp" class="part screen" id="screen" alt="Laptop Screen">
-                                <img src="https://dlcdnwebimgs.asus.com/files/media/2523515c-4a57-41a5-9004-67490621ae51/v1/images/large/1x/kv_z13_keyboard.webp" class="part keyboard" id="keyboard" alt="Laptop Keyboard">
-                                <img src="https://dlcdnwebimgs.asus.com/files/media/2523515c-4a57-41a5-9004-67490621ae51/v1/images/large/1x/kv_z13_back.webp" class="part back-cover" id="back-cover" alt="Laptop Back Cover">
-                            </div>
-                        </div>                        
-					</div>
+	<!-- Start Blog Section 1 -->
+	<div class="article-container">
+		<!-- Thẻ 1 -->
+		<div class="ArticleItem__articleItem__+Qu30">
+			<a href="https://rb.gy/1agc6t">
+				<div class="ArticleItem__photo__0fHHU">
+					<img src="../wwwroot/images/blog1.jpg" alt="img1">
 				</div>
-			</div>
-		<!-- End Hero Section -->
+				<div class="ArticleItem__category__7uNGt">
+					<span>//</span> <span>GIVEAWAYS</span>
+				</div>
+				<div class="ArticleItem__title__CTnaw">
+					<h2>ROG Delta II, ROG Pelta, and ROG Cetra are the ultimate gaming headsets</h2>
+				</div>
+				<div class="ArticleItem__description__2SON7">
+					<p>Whether you need stunning sound for immersive AAA gaming, a headset packing all-day comfort, or
+						ultra-convenient esports-grade earbuds, there’s an ROG audio solution for you.</p>
+				</div>
+			</a>
+			<div class="ArticleItem__corner1__E6M+k"></div>
+			<div class="ArticleItem__corner2__1Ptg0"></div>
+			<div class="ArticleItem__corner3__-Ui4U"></div>
+			<div class="ArticleItem__corner4__ToK2s"></div>
+		</div>
 
-		<section class="section-heading">
-			<h2 class="page-title">Blog</h2>
-		</section>
+		<!-- Thẻ 2 -->
+		<div class="ArticleItem__articleItem__+Qu30">
+			<a href="https://rb.gy/pg4ele">
+				<div class="ArticleItem__photo__0fHHU">
+					<img src="../wwwroot/images/blog2.jpg" alt="img2">
+				</div>
+				<div class="ArticleItem__category__7uNGt">
+					<span>//</span> <span>ROG GAMING LAPTOPS</span>
+				</div>
+				<div class="ArticleItem__title__CTnaw">
+					<h2>Can I upgrade the GPU in my laptop?</h2>
+				</div>
+				<div class="ArticleItem__description__2SON7">
+					<p>If your laptop isn't keeping rup with the latest games anymore, you need a graphics upgrade. The
+						ROG XG Mobile is the solution.</p>
+				</div>
+			</a>
+			<div class="ArticleItem__corner1__E6M+k"></div>
+			<div class="ArticleItem__corner2__1Ptg0"></div>
+			<div class="ArticleItem__corner3__-Ui4U"></div>
+			<div class="ArticleItem__corner4__ToK2s"></div>
+		</div>
 
-		<!-- Start Blog Section 1 -->
-		<div class="article-container">
-			<!-- Thẻ 1 -->
-			<div class="ArticleItem__articleItem__+Qu30">
-			  <a href="https://rb.gy/1agc6t">
+		<!-- Thẻ 3 -->
+		<div class="ArticleItem__articleItem__+Qu30">
+			<a href="https://rb.gy/wmhlsl">
 				<div class="ArticleItem__photo__0fHHU">
-				  <img src="/images/blog1.jpg" alt="img1">
+					<img src="../wwwroot/images/blog3.jpg" alt="img3">
 				</div>
 				<div class="ArticleItem__category__7uNGt">
-				  <span>//</span> <span>GIVEAWAYS</span>
+					<span>//</span> <span>News</span>
 				</div>
 				<div class="ArticleItem__title__CTnaw">
-				  <h2>ROG Delta II, ROG Pelta, and ROG Cetra are the ultimate gaming headsets</h2>
+					<h2>The ROG Astral GeForce RTX 5090 OC smashes 6 new overclocking records</h2>
 				</div>
 				<div class="ArticleItem__description__2SON7">
-				  <p>Whether you need stunning sound for immersive AAA gaming, a headset packing all-day comfort, or ultra-convenient esports-grade earbuds, there’s an ROG audio solution for you.</p>
+					<p>The ROG Astral GeForce RTX 5090 OC takes what you love about ROG graphics cards and ups the ante
+						to provide you more power than ever before. But don’t take our word for it — look at the records
+						it’s smashing.</p>
 				</div>
-			  </a>
-			  <div class="ArticleItem__corner1__E6M+k"></div>
-			  <div class="ArticleItem__corner2__1Ptg0"></div>
-			  <div class="ArticleItem__corner3__-Ui4U"></div>
-			  <div class="ArticleItem__corner4__ToK2s"></div>
-			</div>
-		
-			<!-- Thẻ 2 -->
-			<div class="ArticleItem__articleItem__+Qu30">
-			  <a href="https://rb.gy/pg4ele">
-				<div class="ArticleItem__photo__0fHHU">
-				  <img src="/images/blog2.jpg" alt="img2">
-				</div>
-				<div class="ArticleItem__category__7uNGt">
-				  <span>//</span> <span>ROG GAMING LAPTOPS</span>
-				</div>
-				<div class="ArticleItem__title__CTnaw">
-				  <h2>Can I upgrade the GPU in my laptop?</h2>
-				</div>
-				<div class="ArticleItem__description__2SON7">
-				  <p>If your laptop isn't keeping rup with the latest games anymore, you need a graphics upgrade. The ROG XG Mobile is the solution.</p>
-				</div>
-			  </a>
-			  <div class="ArticleItem__corner1__E6M+k"></div>
-			  <div class="ArticleItem__corner2__1Ptg0"></div>
-			  <div class="ArticleItem__corner3__-Ui4U"></div>
-			  <div class="ArticleItem__corner4__ToK2s"></div>
-			</div>
-		
-			<!-- Thẻ 3 -->
-			<div class="ArticleItem__articleItem__+Qu30">
-			  <a href="https://rb.gy/wmhlsl">
-				<div class="ArticleItem__photo__0fHHU">
-				  <img src="/images/blog3.jpg" alt="img3">
-				</div>
-				<div class="ArticleItem__category__7uNGt">
-				  <span>//</span> <span>News</span>
-				</div>
-				<div class="ArticleItem__title__CTnaw">
-				  <h2>The ROG Astral GeForce RTX 5090 OC smashes 6 new overclocking records</h2>
-				</div>
-				<div class="ArticleItem__description__2SON7">
-				  <p>The ROG Astral GeForce RTX 5090 OC takes what you love about ROG graphics cards and ups the ante to provide you more power than ever before. But don’t take our word for it — look at the records it’s smashing.</p>
-				</div>
-			  </a>
-			  <div class="ArticleItem__corner1__E6M+k"></div>
-			  <div class="ArticleItem__corner2__1Ptg0"></div>
-			  <div class="ArticleItem__corner3__-Ui4U"></div>
-			  <div class="ArticleItem__corner4__ToK2s"></div>
-			</div>
-		
-			<!-- Thẻ 4 -->
-			<div class="ArticleItem__articleItem__+Qu30">
-			  <a href="https://rb.gy/iphkoc">
-				<div class="ArticleItem__photo__0fHHU">
-				  <img src="/images/blog4.jpg" alt="img4">
-				</div>
-				<div class="ArticleItem__category__7uNGt">
-				  <span>//</span> <span>GUIDES</span>
-				</div>
-				<div class="ArticleItem__title__CTnaw">
-				  <h2>How to Adjust the ROG Flow Z13's VRAM Allocation</h2>
-				</div>
-				<div class="ArticleItem__description__2SON7">
-				  <p>The ROG Flow Z13 allows you to customize the amount of VRAM allocated to the integrated GPU, letting you increase VRAM for high-resolution games or decrease it for demanding CPU tasks.</p>
-				</div>
-			  </a>
-			  <div class="ArticleItem__corner1__E6M+k"></div>
-			  <div class="ArticleItem__corner2__1Ptg0"></div>
-			  <div class="ArticleItem__corner3__-Ui4U"></div>
-			  <div class="ArticleItem__corner4__ToK2s"></div>
-			</div>
-		
-			<!-- Thẻ 5 -->
-			<div class="ArticleItem__articleItem__+Qu30">
-			  <a href="https://rb.gy/l8opdc">
-				<div class="ArticleItem__photo__0fHHU">
-				  <img src="/images/blog5.jpg" alt="img5">
-				</div>
-				<div class="ArticleItem__category__7uNGt">
-				  <span>//</span> <span>DESKTOPS</span>
-				</div>
-				<div class="ArticleItem__title__CTnaw">
-				  <h2>Building a PC vs prebuilt: What kind of gaming desktop is right for you?</h2>
-				</div>
-				<div class="ArticleItem__description__2SON7">
-				  <p>One of the biggest debates among gamers is building a PC vs prebuilt. While some prefer the convenience and reliability of prebuilt gaming PCs, others enjoy the freedom and customization of the DIY approach...</p>
-				</div>
-			  </a>
-			  <div class="ArticleItem__corner1__E6M+k"></div>
-			  <div class="ArticleItem__corner2__1Ptg0"></div>
-			  <div class="ArticleItem__corner3__-Ui4U"></div>
-			  <div class="ArticleItem__corner4__ToK2s"></div>
-			</div>
-		
-			<!-- Thẻ 6 -->
-			<div class="ArticleItem__articleItem__+Qu30">
-			  <a href="https://tinyurl.com/4ax7bb97">
-				<div class="ArticleItem__photo__0fHHU">
-				  <img src="/images/blog6.jpg" alt="img6">
-				</div>
-				<div class="ArticleItem__category__7uNGt">
-				  <span>//</span> <span>MOTHERBOARDS</span>
-				</div>
-				<div class="ArticleItem__title__CTnaw">
-				  <h2>ROG Strix vs Extreme vs Apex vs Hero: What's the difference between ROG gaming motherboards?</h2>
-				</div>
-				<div class="ArticleItem__description__2SON7">
-				  <p>When we launch a new generation of motherboards, we don’t just design one model and expect it to meet everyone’s needs. We give you a broad range of options from our ROG Maximus, Crosshair, and Strix lineups...  </p>
-				</div>
-			  </a>
-			  <div class="ArticleItem__corner1__E6M+k"></div>
-			  <div class="ArticleItem__corner2__1Ptg0"></div>
-			  <div class="ArticleItem__corner3__-Ui4U"></div>
-			  <div class="ArticleItem__corner4__ToK2s"></div>
-			</div>
-		
-			<!-- Thẻ 7 -->
-			<div class="ArticleItem__articleItem__+Qu30">
-			  <a href="https://tinyurl.com/4z42nkbw">
-				<div class="ArticleItem__photo__0fHHU">
-				  <img src="/images/blog7.jpg" alt="img7">
-				</div>
-				<div class="ArticleItem__category__7uNGt">
-				  <span>//</span> <span>GUIDES</span>
-				</div>
-				<div class="ArticleItem__title__CTnaw">
-				  <h2>Zephyrus vs Strix vs Flow: What's the difference between ROG laptops?</h2>
-				</div>
-				<div class="ArticleItem__description__2SON7">
-				  <p>ROG builds laptops for every kind of gamer. Find out which one is right for you!</p>
-				</div>
-			  </a>
-			  <div class="ArticleItem__corner1__E6M+k"></div>
-			  <div class="ArticleItem__corner2__1Ptg0"></div>
-			  <div class="ArticleItem__corner3__-Ui4U"></div>
-			  <div class="ArticleItem__corner4__ToK2s"></div>
-			</div>
-		
-			<!-- Thẻ 8 -->
-			<div class="ArticleItem__articleItem__+Qu30">
-			  <a href="https://tinyurl.com/3ft3kzjw">
-				<div class="ArticleItem__photo__0fHHU">
-				  <img src="/images/blog8.jpg" alt="img8">
-				</div>
-				<div class="ArticleItem__category__7uNGt">
-				  <span>//</span> <span>ROG GAMING LAPTOPS</span>
-				</div>
-				<div class="ArticleItem__title__CTnaw">
-				  <h2>Zephyrus G14 vs G16: What's the difference between ROG's Zephyrus laptops?</h2>
-				</div>
-				<div class="ArticleItem__description__2SON7">
-				  <p>Our Zephyrus family is the perfect marriage of style, portability, and performance. Here's how the G14 and G16 compare.</p>
-				</div>
-			  </a>
-			  <div class="ArticleItem__corner1__E6M+k"></div>
-			  <div class="ArticleItem__corner2__1Ptg0"></div>
-			  <div class="ArticleItem__corner3__-Ui4U"></div>
-			  <div class="ArticleItem__corner4__ToK2s"></div>
-			</div>
-		
-			<!-- Thẻ 9 -->
-			<div class="ArticleItem__articleItem__+Qu30">
-			  <a href="https://tinyurl.com/354unyyf">
-				<div class="ArticleItem__photo__0fHHU">
-				  <img src="/images/blog9.jpg" alt="img9">
-				</div>
-				<div class="ArticleItem__category__7uNGt">
-				  <span>//</span> <span>ROG GAMING LAPTOPS</span>
-				</div>
-				<div class="ArticleItem__title__CTnaw">
-				  <h2>ROG Strix SCAR vs Strix G: What's the difference between ROG's esports laptops?</h2>
-				</div>
-				<div class="ArticleItem__description__2SON7">
-				  <p>If you want the best hardware competitive gaming has to offer, look no further than ROG Strix.</p>
-				</div>
-			  </a>
-			  <div class="ArticleItem__corner1__E6M+k"></div>
-			  <div class="ArticleItem__corner2__1Ptg0"></div>
-			  <div class="ArticleItem__corner3__-Ui4U"></div>
-			  <div class="ArticleItem__corner4__ToK2s"></div>
-			</div>
-		  </div>
-		<!-- End Blog Section 1 -->
+			</a>
+			<div class="ArticleItem__corner1__E6M+k"></div>
+			<div class="ArticleItem__corner2__1Ptg0"></div>
+			<div class="ArticleItem__corner3__-Ui4U"></div>
+			<div class="ArticleItem__corner4__ToK2s"></div>
+		</div>
 
-		<section class="section-reviews">
-			<h2 class="reviews-title">Our Customer Reviews</h2>
-		</section>
+		<!-- Thẻ 4 -->
+		<div class="ArticleItem__articleItem__+Qu30">
+			<a href="https://rb.gy/iphkoc">
+				<div class="ArticleItem__photo__0fHHU">
+					<img src="../wwwroot/images/blog4.jpg" alt="img4">
+				</div>
+				<div class="ArticleItem__category__7uNGt">
+					<span>//</span> <span>GUIDES</span>
+				</div>
+				<div class="ArticleItem__title__CTnaw">
+					<h2>How to Adjust the ROG Flow Z13's VRAM Allocation</h2>
+				</div>
+				<div class="ArticleItem__description__2SON7">
+					<p>The ROG Flow Z13 allows you to customize the amount of VRAM allocated to the integrated GPU,
+						letting you increase VRAM for high-resolution games or decrease it for demanding CPU tasks.</p>
+				</div>
+			</a>
+			<div class="ArticleItem__corner1__E6M+k"></div>
+			<div class="ArticleItem__corner2__1Ptg0"></div>
+			<div class="ArticleItem__corner3__-Ui4U"></div>
+			<div class="ArticleItem__corner4__ToK2s"></div>
+		</div>
 
-		<!-- Start Review Section -->
-		<div class="tech-specs">
-			<div class="container">
-			  <div class="spec-grid">
+		<!-- Thẻ 5 -->
+		<div class="ArticleItem__articleItem__+Qu30">
+			<a href="https://rb.gy/l8opdc">
+				<div class="ArticleItem__photo__0fHHU">
+					<img src="../wwwroot/images/blog5.jpg" alt="img5">
+				</div>
+				<div class="ArticleItem__category__7uNGt">
+					<span>//</span> <span>DESKTOPS</span>
+				</div>
+				<div class="ArticleItem__title__CTnaw">
+					<h2>Building a PC vs prebuilt: What kind of gaming desktop is right for you?</h2>
+				</div>
+				<div class="ArticleItem__description__2SON7">
+					<p>One of the biggest debates among gamers is building a PC vs prebuilt. While some prefer the
+						convenience and reliability of prebuilt gaming PCs, others enjoy the freedom and customization
+						of the DIY approach...</p>
+				</div>
+			</a>
+			<div class="ArticleItem__corner1__E6M+k"></div>
+			<div class="ArticleItem__corner2__1Ptg0"></div>
+			<div class="ArticleItem__corner3__-Ui4U"></div>
+			<div class="ArticleItem__corner4__ToK2s"></div>
+		</div>
+
+		<!-- Thẻ 6 -->
+		<div class="ArticleItem__articleItem__+Qu30">
+			<a href="https://tinyurl.com/4ax7bb97">
+				<div class="ArticleItem__photo__0fHHU">
+					<img src="../wwwroot/images/blog6.jpg" alt="img6">
+				</div>
+				<div class="ArticleItem__category__7uNGt">
+					<span>//</span> <span>MOTHERBOARDS</span>
+				</div>
+				<div class="ArticleItem__title__CTnaw">
+					<h2>ROG Strix vs Extreme vs Apex vs Hero: What's the difference between ROG gaming motherboards?
+					</h2>
+				</div>
+				<div class="ArticleItem__description__2SON7">
+					<p>When we launch a new generation of motherboards, we don’t just design one model and expect it to
+						meet everyone’s needs. We give you a broad range of options from our ROG Maximus, Crosshair, and
+						Strix lineups... </p>
+				</div>
+			</a>
+			<div class="ArticleItem__corner1__E6M+k"></div>
+			<div class="ArticleItem__corner2__1Ptg0"></div>
+			<div class="ArticleItem__corner3__-Ui4U"></div>
+			<div class="ArticleItem__corner4__ToK2s"></div>
+		</div>
+
+		<!-- Thẻ 7 -->
+		<div class="ArticleItem__articleItem__+Qu30">
+			<a href="https://tinyurl.com/4z42nkbw">
+				<div class="ArticleItem__photo__0fHHU">
+					<img src="../wwwroot/images/blog7.jpg" alt="img7">
+				</div>
+				<div class="ArticleItem__category__7uNGt">
+					<span>//</span> <span>GUIDES</span>
+				</div>
+				<div class="ArticleItem__title__CTnaw">
+					<h2>Zephyrus vs Strix vs Flow: What's the difference between ROG laptops?</h2>
+				</div>
+				<div class="ArticleItem__description__2SON7">
+					<p>ROG builds laptops for every kind of gamer. Find out which one is right for you!</p>
+				</div>
+			</a>
+			<div class="ArticleItem__corner1__E6M+k"></div>
+			<div class="ArticleItem__corner2__1Ptg0"></div>
+			<div class="ArticleItem__corner3__-Ui4U"></div>
+			<div class="ArticleItem__corner4__ToK2s"></div>
+		</div>
+
+		<!-- Thẻ 8 -->
+		<div class="ArticleItem__articleItem__+Qu30">
+			<a href="https://tinyurl.com/3ft3kzjw">
+				<div class="ArticleItem__photo__0fHHU">
+					<img src="../wwwroot/images/blog8.jpg" alt="img8">
+				</div>
+				<div class="ArticleItem__category__7uNGt">
+					<span>//</span> <span>ROG GAMING LAPTOPS</span>
+				</div>
+				<div class="ArticleItem__title__CTnaw">
+					<h2>Zephyrus G14 vs G16: What's the difference between ROG's Zephyrus laptops?</h2>
+				</div>
+				<div class="ArticleItem__description__2SON7">
+					<p>Our Zephyrus family is the perfect marriage of style, portability, and performance. Here's how
+						the G14 and G16 compare.</p>
+				</div>
+			</a>
+			<div class="ArticleItem__corner1__E6M+k"></div>
+			<div class="ArticleItem__corner2__1Ptg0"></div>
+			<div class="ArticleItem__corner3__-Ui4U"></div>
+			<div class="ArticleItem__corner4__ToK2s"></div>
+		</div>
+
+		<!-- Thẻ 9 -->
+		<div class="ArticleItem__articleItem__+Qu30">
+			<a href="https://tinyurl.com/354unyyf">
+				<div class="ArticleItem__photo__0fHHU">
+					<img src="../wwwroot/images/blog9.jpg" alt="img9">
+				</div>
+				<div class="ArticleItem__category__7uNGt">
+					<span>//</span> <span>ROG GAMING LAPTOPS</span>
+				</div>
+				<div class="ArticleItem__title__CTnaw">
+					<h2>ROG Strix SCAR vs Strix G: What's the difference between ROG's esports laptops?</h2>
+				</div>
+				<div class="ArticleItem__description__2SON7">
+					<p>If you want the best hardware competitive gaming has to offer, look no further than ROG Strix.
+					</p>
+				</div>
+			</a>
+			<div class="ArticleItem__corner1__E6M+k"></div>
+			<div class="ArticleItem__corner2__1Ptg0"></div>
+			<div class="ArticleItem__corner3__-Ui4U"></div>
+			<div class="ArticleItem__corner4__ToK2s"></div>
+		</div>
+	</div>
+	<!-- End Blog Section 1 -->
+
+	<section class="section-reviews">
+		<h2 class="reviews-title">Our Customer Reviews</h2>
+	</section>
+
+	<!-- Start Review Section -->
+	<div class="tech-specs">
+		<div class="container">
+			<div class="spec-grid">
 				<!-- Sản phẩm 1 -->
 				<div class="spec-item">
-				  <img src="https://m.media-amazon.com/images/I/81GrCeuCzxL._AC_SL1500_.jpg" alt="ROG Zephyrus M16 (2023) GU604" class="spec-image"/>
-				  <h3 class="spec-title">ROG Zephyrus M16 (2023) GU604</h3>
-				  <div class="spec-details">
-					<div class="spec-section">
-					  <span class="stars">
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-					  </span>
-					  <span class="rating-value">(5/5)</span>
+					<img src="https://m.media-amazon.com/images/I/81GrCeuCzxL._AC_SL1500_.jpg"
+						alt="ROG Zephyrus M16 (2023) GU604" class="spec-image" />
+					<h3 class="spec-title">ROG Zephyrus M16 (2023) GU604</h3>
+					<div class="spec-details">
+						<div class="spec-section">
+							<span class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</span>
+							<span class="rating-value">(5/5)</span>
+						</div>
+						<div class="spec-section">
+							<h4><span>By</span> Yumi Grace <span>| Reviewed in the United States on January 3,
+									2025</span></h4>
+							<details class="product-details">
+								<summary>Details</summary>
+								<p>
+									Performance: The Intel Core i7-13650HX and NVIDIA GeForce RTX 4060 combo is a beast!
+									Every game I've tested so far runs smoothly at high settings. The 16GB DDR5 RAM
+									ensures multitasking is a breeze, whether I’m gaming, streaming, or working on video
+									edits.
+									<br><br>Display: The 16-inch, 16:10 FHD display with a 165Hz refresh rate is a
+									game-changer. The visuals are buttery smooth, vibrant, and crisp. It’s perfect for
+									fast-paced games where every millisecond counts.
+									<br><br>Build and Design: The laptop feels premium and sturdy. The cooling system is
+									excellent, keeping the machine cool even during intense gaming sessions. The RGB
+									lighting on the keyboard adds a stylish touch.
+									<br><br>Value for Money: For its price, this laptop packs incredible features that
+									cater to gamers and content creators alike. It’s future-proof and ready to handle
+									even the most demanding tasks.
+									<br><br>Overall Experience: This is hands down one of the best gaming laptops I’ve
+									ever owned. ASUS nailed it with this model, providing top-notch performance,
+									cutting-edge features, and excellent build quality. Highly recommended for anyone
+									looking for a powerful, versatile machine. 👏
+									<br><br>If you're considering this laptop, don’t hesitate—it’s worth every penny!
+								</p>
+							</details>
+						</div>
 					</div>
-					<div class="spec-section">
-					  <h4><span>By</span> Yumi Grace <span>| Reviewed in the United States on January 3, 2025</span></h4>
-					  <details class="product-details">
-						  <summary>Details</summary>
-						  <p>
-							  Performance: The Intel Core i7-13650HX and NVIDIA GeForce RTX 4060 combo is a beast! Every game I've tested so far runs smoothly at high settings. The 16GB DDR5 RAM ensures multitasking is a breeze, whether I’m gaming, streaming, or working on video edits.
-							  <br><br>Display: The 16-inch, 16:10 FHD display with a 165Hz refresh rate is a game-changer. The visuals are buttery smooth, vibrant, and crisp. It’s perfect for fast-paced games where every millisecond counts.
-							  <br><br>Build and Design: The laptop feels premium and sturdy. The cooling system is excellent, keeping the machine cool even during intense gaming sessions. The RGB lighting on the keyboard adds a stylish touch.
-							  <br><br>Value for Money: For its price, this laptop packs incredible features that cater to gamers and content creators alike. It’s future-proof and ready to handle even the most demanding tasks.
-							  <br><br>Overall Experience: This is hands down one of the best gaming laptops I’ve ever owned. ASUS nailed it with this model, providing top-notch performance, cutting-edge features, and excellent build quality. Highly recommended for anyone looking for a powerful, versatile machine. 👏
-							  <br><br>If you're considering this laptop, don’t hesitate—it’s worth every penny!
-						  </p>
-					  </details>
-					</div>
-				  </div>
 				</div>
-	  
+
 				<!-- Sản phẩm 2 -->
 				<div class="spec-item">
-				  <img src="https://m.media-amazon.com/images/I/71VUFrGHwDL._AC_SL1500_.jpg" alt="ASUS Zenbook DUO (UX8406)" class="spec-image"/>
-				  <h3 class="spec-title">ASUS Zenbook DUO (UX8406)</h3>
-				  <div class="spec-details">
-					<div class="spec-section">
-					  <span class="stars">
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-					  </span>
-					  <span class="rating-value">(5/5)</span>
+					<img src="https://m.media-amazon.com/images/I/71VUFrGHwDL._AC_SL1500_.jpg"
+						alt="ASUS Zenbook DUO (UX8406)" class="spec-image" />
+					<h3 class="spec-title">ASUS Zenbook DUO (UX8406)</h3>
+					<div class="spec-details">
+						<div class="spec-section">
+							<span class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</span>
+							<span class="rating-value">(5/5)</span>
+						</div>
+						<div class="spec-section">
+							<h4><span>By</span> Rhyalus <span>| Reviewed in the United States on February 27,
+									2025</span></h4>
+							<details class="product-details">
+								<summary>Details</summary>
+								<p>
+									The 2025 version of this laptop comes with the Ultra 9 285H CPU, which was worth the
+									wait. There are a ton of YouTube video reviews, so I will not go into all of the
+									details - you should definitely watch them first, but here are my pros and cons.
+									<br><br>Pros:
+									<br>You can use it like a regular laptop, and it is totally stable and the keyboard
+									is *great*.
+									<br>The OLED screens are beautiful and bright (though reflective in bright light).
+									<br>The vertical mode is super stable and easy to get used to.
+									<br>Moving apps between screens is simple, and I have had no problems at all.
+									<br>In "standard" mode, I almost never hear the fans, even with multiple programs
+									running.
+									<br>The system uses a small 65W power brick...any 65W or higher PD brick will be
+									fine.
+									<br>The premium body is not a fingerprint magnet.
+									<br>Battery life seems good, but I have not used it too much without AC
+									<br>Comes with the active pen, but I have no use for it
+									<br>The MyAsus application is very good, and puts the system controls in one place
+									<br><br>Cons:
+									<br>Heavier than your usual 14" laptop, but you have 2 screens :-)
+									<br>Two Thunderbolt 4 ports - why not TB 5?
+									<br>The keyboard battery life when removed from the body seems a bit short when the
+									backlight is on
+									<br>The CPU can take more power, but it is limited in this machine to prevent it
+									from throttling too much
+									<br>Battery life is limited due to the two screens, but that is to be expected
+									<br>Why not Win 11 Professional instead of Home for a premium device?
+									<br>There is only 1 M.2 slot for storage, which is a bummer
+									<br><br>Overall, this is one of the best machines I have ever used. Applications are
+									quick, and I am never waiting for something to respond. This is NOT a gaming
+									machine, regardless of what you might hear. The iGPU is not the best that Intel has
+									to offer, and the NPU for AI is weaker than most - but for what it is meant to do,
+									it excels. This is a business laptop dream - if you multi-task a lot, edit multiple
+									documents at once, etc., it is perfect. Did I mention how great the keyboard is? :-)
+									<br><br>Highly recommended!
+								</p>
+							</details>
+						</div>
 					</div>
-					<div class="spec-section">
-					  <h4><span>By</span> Rhyalus <span>| Reviewed in the United States on February 27, 2025</span></h4>
-					  <details class="product-details">
-						  <summary>Details</summary>
-						  <p>
-							  The 2025 version of this laptop comes with the Ultra 9 285H CPU, which was worth the wait. There are a ton of YouTube video reviews, so I will not go into all of the details - you should definitely watch them first, but here are my pros and cons.
-							  <br><br>Pros:
-							  <br>You can use it like a regular laptop, and it is totally stable and the keyboard is *great*.
-							  <br>The OLED screens are beautiful and bright (though reflective in bright light).
-							  <br>The vertical mode is super stable and easy to get used to.
-							  <br>Moving apps between screens is simple, and I have had no problems at all.
-							  <br>In "standard" mode, I almost never hear the fans, even with multiple programs running.
-							  <br>The system uses a small 65W power brick...any 65W or higher PD brick will be fine.
-							  <br>The premium body is not a fingerprint magnet.
-							  <br>Battery life seems good, but I have not used it too much without AC
-							  <br>Comes with the active pen, but I have no use for it
-							  <br>The MyAsus application is very good, and puts the system controls in one place
-							  <br><br>Cons:
-							  <br>Heavier than your usual 14" laptop, but you have 2 screens :-)
-							  <br>Two Thunderbolt 4 ports - why not TB 5?
-							  <br>The keyboard battery life when removed from the body seems a bit short when the backlight is on
-							  <br>The CPU can take more power, but it is limited in this machine to prevent it from throttling too much
-							  <br>Battery life is limited due to the two screens, but that is to be expected
-							  <br>Why not Win 11 Professional instead of Home for a premium device?
-							  <br>There is only 1 M.2 slot for storage, which is a bummer
-							  <br><br>Overall, this is one of the best machines I have ever used. Applications are quick, and I am never waiting for something to respond. This is NOT a gaming machine, regardless of what you might hear. The iGPU is not the best that Intel has to offer, and the NPU for AI is weaker than most - but for what it is meant to do, it excels. This is a business laptop dream - if you multi-task a lot, edit multiple documents at once, etc., it is perfect. Did I mention how great the keyboard is? :-)
-							  <br><br>Highly recommended!
-						  </p>
-					  </details>
-					</div>
-				  </div>
 				</div>
-	  
+
 				<!-- Sản phẩm 3 -->
 				<div class="spec-item">
-				  <img src="https://m.media-amazon.com/images/I/81-58I-f9sL._AC_SL1500_.jpg" alt="ASUS ROG Strix (XG17AHPE)" class="spec-image"/>
-				  <h3 class="spec-title">ASUS ROG Strix (XG17AHPE)</h3>
-				  <div class="spec-details">
-					<div class="spec-section">
-					  <span class="stars">
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star-half-alt"></i>
-					  </span>
-					  <span class="rating-value">(4.5/5)</span>
+					<img src="https://m.media-amazon.com/images/I/81-58I-f9sL._AC_SL1500_.jpg"
+						alt="ASUS ROG Strix (XG17AHPE)" class="spec-image" />
+					<h3 class="spec-title">ASUS ROG Strix (XG17AHPE)</h3>
+					<div class="spec-details">
+						<div class="spec-section">
+							<span class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</span>
+							<span class="rating-value">(4.5/5)</span>
+						</div>
+						<div class="spec-section">
+							<h4><span>By</span> Tyler R. <span>| Reviewed in the United States on January 20,
+									2025</span></h4>
+							<details class="product-details">
+								<summary>Details</summary>
+								<p>
+									I'm obsessed with my new Asus ZenScreen O-LED 15.6" monitor!
+									<br>As someone who's always on the move, I needed a portable display that could keep
+									up with me - and this thing delivers. The OLED screen is insane, with colors that
+									pop and a level of detail that's hard to believe in a device this small.
+									<br>Plus, it's super lightweight, making it easy to toss into my bag and take
+									wherever I go.
+									<br>The magnetic stand is also a total game-changer - it's sturdy, adjustable, and
+									keeps the screen safe from scratches when I'm traveling.
+									<br>One thing to keep in mind: you'll need to bring your own mini HDMI to HDMI cable
+									to get started, which is a bit of a bummer.
+									<br>And if you want to power it up, you'll need an extra USB-C cable - but honestly,
+									that's not a huge deal.
+									<br>Despite those minor quirks, this monitor has been a total lifesaver for me.
+									Whether I'm working from a coffee shop or trying to squeeze in some gaming at home,
+									the Asus ZenScreen is the perfect companion. And let's be real - it's also a great
+									option if you're short on space, since it's so compact and easy to set up. All in
+									all, I'm thoroughly impressed with this little monitor - it's a total winner!
+								</p>
+							</details>
+						</div>
 					</div>
-					<div class="spec-section">
-					  <h4><span>By</span> Tyler R. <span>| Reviewed in the United States on January 20, 2025</span></h4>
-					  <details class="product-details">
-						  <summary>Details</summary>
-						  <p>
-							  I'm obsessed with my new Asus ZenScreen O-LED 15.6" monitor!
-							  <br>As someone who's always on the move, I needed a portable display that could keep up with me - and this thing delivers. The OLED screen is insane, with colors that pop and a level of detail that's hard to believe in a device this small. 
-							  <br>Plus, it's super lightweight, making it easy to toss into my bag and take wherever I go. 
-							  <br>The magnetic stand is also a total game-changer - it's sturdy, adjustable, and keeps the screen safe from scratches when I'm traveling.
-							  <br>One thing to keep in mind: you'll need to bring your own mini HDMI to HDMI cable to get started, which is a bit of a bummer. 
-							  <br>And if you want to power it up, you'll need an extra USB-C cable - but honestly, that's not a huge deal. 
-							  <br>Despite those minor quirks, this monitor has been a total lifesaver for me. Whether I'm working from a coffee shop or trying to squeeze in some gaming at home, the Asus ZenScreen is the perfect companion. And let's be real - it's also a great option if you're short on space, since it's so compact and easy to set up. All in all, I'm thoroughly impressed with this little monitor - it's a total winner!
-						  </p>
-					  </details>
-					</div>
-				  </div>
 				</div>
-	  
+
 				<!-- Sản phẩm 4 -->
 				<div class="spec-item">
-				  <img src="https://m.media-amazon.com/images/I/616+pJ6tpJL._AC_SL1280_.jpg" alt="ASUS ROG Zephyrus G16" class="spec-image"/>
-				  <h3 class="spec-title">ASUS ROG Zephyrus G16</h3>
-				  <div class="spec-details">
-					<div class="spec-section">
-					  <span class="stars">
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="far fa-star"></i>
-						  <i class="far fa-star"></i>
-						  <i class="far fa-star"></i>
-					  </span>
-					  <span class="rating-value">(2/5)</span>
+					<img src="https://m.media-amazon.com/images/I/616+pJ6tpJL._AC_SL1280_.jpg"
+						alt="ASUS ROG Zephyrus G16" class="spec-image" />
+					<h3 class="spec-title">ASUS ROG Zephyrus G16</h3>
+					<div class="spec-details">
+						<div class="spec-section">
+							<span class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</span>
+							<span class="rating-value">(2/5)</span>
+						</div>
+						<div class="spec-section">
+							<h4><span>By</span> Bahlul Askerov <span>| Reviewed in the United States on January 22,
+									2025</span></h4>
+							<details class="product-details">
+								<summary>Details</summary>
+								<p>
+									This product is pre-purchased, opened and upgraded, it is not exactly new as they
+									state (this was not stated clearly in the description).
+									<br>Also as another review mentions they don't do a good job with the upgrading
+									parts.
+									<br>I paid extra for the 2tb sdd version and to my surprise, only around 500gb was
+									available.
+									<br>Asus support was of no help as they said they only make this model with a 512gb
+									sdd.
+									<br>I reached out to the vendor with no answer or support from him. After many
+									attempts to fix this, in case anyone else needs this, was to do a clean windows
+									installation with an external drive (this is important), and removing all the
+									default partitions.
+									<br>Beware that this will cause the touchpad, wifi, and most components from the
+									computer not responding.
+									<br>Make sure to predownload all required drivers and put them in the installation
+									external drive.
+									<br>Hope this helps anyone who already purchased this and is having this issue, but
+									for no buyers, I'd recommend looking somewhere else.
+								</p>
+							</details>
+						</div>
 					</div>
-					<div class="spec-section">
-					  <h4><span>By</span> Bahlul Askerov <span>| Reviewed in the United States on January 22, 2025</span></h4>
-					  <details class="product-details">
-						  <summary>Details</summary>
-						  <p>
-							  This product is pre-purchased, opened and upgraded, it is not exactly new as they state (this was not stated clearly in the description).
-							  <br>Also as another review mentions they don't do a good job with the upgrading parts. 
-							  <br>I paid extra for the 2tb sdd version and to my surprise, only around 500gb was available. 
-							  <br>Asus support was of no help as they said they only make this model with a 512gb sdd. 
-							  <br>I reached out to the vendor with no answer or support from him. After many attempts to fix this, in case anyone else needs this, was to do a clean windows installation with an external drive (this is important), and removing all the default partitions. 
-							  <br>Beware that this will cause the touchpad, wifi, and most components from the computer not responding. 
-							  <br>Make sure to predownload all required drivers and put them in the installation external drive. 
-							  <br>Hope this helps anyone who already purchased this and is having this issue, but for no buyers, I'd recommend looking somewhere else.
-						  </p>
-					  </details>
-					</div>
-				  </div>
 				</div>
-	  
+
 				<!-- Sản phẩm 5 -->
 				<div class="spec-item">
-				  <img src="https://m.media-amazon.com/images/I/81UvrysuL4L._AC_SL1500_.jpg" alt="ROG Azoth Extreme 75" class="spec-image"/>
-				  <h3 class="spec-title">ROG Azoth Extreme 75</h3>
-				  <div class="spec-details">
-					<div class="spec-section">
-					  <span class="stars">
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star-half-alt"></i>
-					  </span>
-					  <span class="rating-value">(4.5/5)</span>
+					<img src="https://m.media-amazon.com/images/I/81UvrysuL4L._AC_SL1500_.jpg"
+						alt="ROG Azoth Extreme 75" class="spec-image" />
+					<h3 class="spec-title">ROG Azoth Extreme 75</h3>
+					<div class="spec-details">
+						<div class="spec-section">
+							<span class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</span>
+							<span class="rating-value">(4.5/5)</span>
+						</div>
+						<div class="spec-section">
+							<h4><span>By</span> Aldo <span>| Reviewed in the United States on February 6, 2024</span>
+							</h4>
+							<details class="product-details">
+								<summary>Details</summary>
+								<p>
+									I initially wasn’t considering ASUS at all, because I thought their keyboards were
+									way too expensive and had my eyes on something around a hundred bucks, like
+									Key-chron.
+									<br>But I stumbled upon a discount on the ROG Azoth, which dropped from $250 down to
+									$179, and decided to take the plunge.
+									<br>Honestly, this keyboard feels like the “Vertu” of keyboards: a premium metal
+									chassis, fantastic linear switches (hot-swappable, no less), instant syncing across
+									Bluetooth, 2.4 GHz, and wired modes, plus an incredibly deep, quiet typing sound.
+									<br>It gives off a real “flagship smartphone” vibe—pure luxury and top-tier quality.
+
+									<br><br>I’ve got to hand it to ASUS’s marketing on Amazon, because that sale is
+									exactly what made me go for it.
+									<br>Without that steep discount, I probably would’ve stuck to a more budget-friendly
+									option.
+									<br>But once I realized the price gap wasn’t that huge anymore, I figured I’d get
+									something truly high-end for nearly the same money.
+									<br>After unboxing it, I was sold. I genuinely don’t think I can go back to any
+									other keyboards now. In my opinion, this is the best 75% model I’ve ever seen—maybe
+									only some “Extreme” version could top it.
+									<br>If you’re on the hunt for a “keyboard for years to come,” this is it.
+								</p>
+							</details>
+						</div>
 					</div>
-					<div class="spec-section">
-					  <h4><span>By</span> Aldo <span>| Reviewed in the United States on February 6, 2024</span></h4>
-					  <details class="product-details">
-						  <summary>Details</summary>
-						  <p>
-							  I initially wasn’t considering ASUS at all, because I thought their keyboards were way too expensive and had my eyes on something around a hundred bucks, like Key-chron. 
-							  <br>But I stumbled upon a discount on the ROG Azoth, which dropped from $250 down to $179, and decided to take the plunge. 
-							  <br>Honestly, this keyboard feels like the “Vertu” of keyboards: a premium metal chassis, fantastic linear switches (hot-swappable, no less), instant syncing across Bluetooth, 2.4 GHz, and wired modes, plus an incredibly deep, quiet typing sound. 
-							  <br>It gives off a real “flagship smartphone” vibe—pure luxury and top-tier quality.
-	  
-							  <br><br>I’ve got to hand it to ASUS’s marketing on Amazon, because that sale is exactly what made me go for it. 
-							  <br>Without that steep discount, I probably would’ve stuck to a more budget-friendly option. 
-							  <br>But once I realized the price gap wasn’t that huge anymore, I figured I’d get something truly high-end for nearly the same money. 
-							  <br>After unboxing it, I was sold. I genuinely don’t think I can go back to any other keyboards now. In my opinion, this is the best 75% model I’ve ever seen—maybe only some “Extreme” version could top it. 
-							  <br>If you’re on the hunt for a “keyboard for years to come,” this is it.
-						  </p>
-					  </details>
-					</div>
-				  </div>
 				</div>
-	  
+
 				<!-- Sản phẩm 6 -->
 				<div class="spec-item">
-				  <img src="https://m.media-amazon.com/images/I/71noSdO0XjL._AC_SL1500_.jpg" alt="ROG Pelta" class="spec-image"/>
-				  <h3 class="spec-title">ASUS ROG Pelta</h3>
-				  <div class="spec-details">
-					<div class="spec-section">
-					  <span class="stars">
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="far fa-star"></i>
-					  </span>
-					  <span class="rating-value">(4.2/5)</span>
+					<img src="https://m.media-amazon.com/images/I/71noSdO0XjL._AC_SL1500_.jpg" alt="ROG Pelta"
+						class="spec-image" />
+					<h3 class="spec-title">ASUS ROG Pelta</h3>
+					<div class="spec-details">
+						<div class="spec-section">
+							<span class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</span>
+							<span class="rating-value">(4.2/5)</span>
+						</div>
+						<div class="spec-section">
+							<h4><span>By</span> Justin Horning <span>| Reviewed in the United States on January 4,
+									2025</span></h4>
+							<details class="product-details">
+								<summary>Details</summary>
+								<p>
+									I have never written an Amazon review before but this headsets score is way to low.
+									<br>It is an excellent headset that I would highly recommend except for 2 specific
+									reasons that’s someone might not like it. 1.
+									<br>The headset is quite large so if you have a small head definitely stay away.
+									<br>I have a medium to a large head and it’s still fairly loose on me even on its
+									tightest setting.
+									<br>Secondly the headset is not great at keeping our external audio so if you are in
+									a loud environment or you want serious noise cancelling this isn’t the headset for
+									you.
+									<br>Besides those 2 points this thing is excellent the audio is great, the software
+									is great (besides the sleep function not working currently hoping it gets patched
+									soon), the comfort is top notch, and the microphone is crystal clear.
+									<br>Coming from a Razor Kraken v3 pro this thing is a huge step up and it’s a joy to
+									use.
+									<br>The battery life is also insane I have had it for over 2 weeks and haven't
+									charged it once it’s still at 50% and that’s using it all day. Definitely worth the
+									purchase.
+								</p>
+							</details>
+						</div>
 					</div>
-					<div class="spec-section">
-					  <h4><span>By</span> Justin Horning <span>| Reviewed in the United States on January 4, 2025</span></h4>
-					  <details class="product-details">
-						  <summary>Details</summary>
-						  <p>
-							I have never written an Amazon review before but this headsets score is way to low. 
-							<br>It is an excellent headset that I would highly recommend except for 2 specific reasons that’s someone might not like it. 1. 
-							<br>The headset is quite large so if you have a small head definitely stay away. 
-							<br>I have a medium to a large head and it’s still fairly loose on me even on its tightest setting. 
-							<br>Secondly the headset is not great at keeping our external audio so if you are in a loud environment or you want serious noise cancelling this isn’t the headset for you. 
-							<br>Besides those 2 points this thing is excellent the audio is great, the software is great (besides the sleep function not working currently hoping it gets patched soon), the comfort is top notch, and the microphone is crystal clear. 
-							<br>Coming from a Razor Kraken v3 pro this thing is a huge step up and it’s a joy to use. 
-							<br>The battery life is also insane I have had it for over 2 weeks and haven't charged it once it’s still at 50% and that’s using it all day. Definitely worth the purchase.
-						  </p>
-					  </details>
-					</div>
-				  </div>
 				</div>
-	  
+
 				<!-- Sản phẩm 7 -->
 				<div class="spec-item">
-				  <img src="https://m.media-amazon.com/images/I/61EaA5GJpeL._AC_SL1500_.jpg" alt="ASUS ROG Cetra" class="spec-image"/>
-				  <h3 class="spec-title">ASUS ROG Cetra</h3>
-				  <div class="spec-details">
-					<div class="spec-section">
-					  <span class="stars">
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="far fa-star"></i>
-					  </span>
-					  <span class="rating-value">(4.1/5)</span>
+					<img src="https://m.media-amazon.com/images/I/61EaA5GJpeL._AC_SL1500_.jpg" alt="ASUS ROG Cetra"
+						class="spec-image" />
+					<h3 class="spec-title">ASUS ROG Cetra</h3>
+					<div class="spec-details">
+						<div class="spec-section">
+							<span class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</span>
+							<span class="rating-value">(4.1/5)</span>
+						</div>
+						<div class="spec-section">
+							<h4><span>By</span> KB23 <span>| Reviewed in the United States on May 22, 2024</span></h4>
+							<details class="product-details">
+								<summary>Details</summary>
+								<p>
+									I’ve been searching for a while for the perfect gaming earbuds.
+									<br>I tried the razer hammerheads wireless way back when they first came out, and
+									they were alright.
+									<br>Since then, I’ve been looking for something else as I hate wearing a headset and
+									find them bulky and that they take up too much space on a desk, even with a hook.
+									<br><br>I tried the regular ROG Cetra, but the Bluetooth just had too much lag to
+									make it enjoyable for the games I was playing.
+									<br>It was about 1/4-1/2 second behind, but it was enough to be noticeable.
+									Otherwise the buds themselves were comfortable.
+									<br><br>Then, onto Anker Soundcore VRp10. These were great with the dongle, and they
+									connected well to my pc, vr headset, and cell phone.
+									<br>The volume left some to be desired and the quality was alright, but the
+									microphone was useless.
+									<br><br>After those, I tried the JBL Quantums, which sounded better, had a decent
+									connection with their dongle, but just couldn’t stay charged, plus weren’t the most
+									comfortable.
+									<br><br>Now onto the Rog Cetra Speednovas, and dang these are great!
+									<br>They sound just as good as my AirPod pro’s, the audio is clear with no hiccups,
+									and has fantastic range.
+									<br>I love not having to worry about a wire, and they recharge fast in the case. The
+									microphone is great too.
+									<br>My only gripe is that there is no easy way to store the dongle with the carrying
+									case so I’ll have to plan to bring that separately somehow whenever I go on a trip.
+									<br>I’d highly recommend these to anyone who’s had a hard time finding the perfect
+									earbuds since I went through that enough already.
+									<br>I have every intention to change my review if I run into an issue with quality
+									or performance in the future. But for now, they’re practically perfect!
+								</p>
+							</details>
+						</div>
 					</div>
-					<div class="spec-section">
-					  <h4><span>By</span> KB23 <span>| Reviewed in the United States on May 22, 2024</span></h4>
-					  <details class="product-details">
-						  <summary>Details</summary>
-						  <p>
-							I’ve been searching for a while for the perfect gaming earbuds. 
-							<br>I tried the razer hammerheads wireless way back when they first came out, and they were alright. 
-							<br>Since then, I’ve been looking for something else as I hate wearing a headset and find them bulky and that they take up too much space on a desk, even with a hook.
-							<br><br>I tried the regular ROG Cetra, but the Bluetooth just had too much lag to make it enjoyable for the games I was playing. 
-							<br>It was about 1/4-1/2 second behind, but it was enough to be noticeable. Otherwise the buds themselves were comfortable.
-							<br><br>Then, onto Anker Soundcore VRp10. These were great with the dongle, and they connected well to my pc, vr headset, and cell phone. 
-							<br>The volume left some to be desired and the quality was alright, but the microphone was useless.
-							<br><br>After those, I tried the JBL Quantums, which sounded better, had a decent connection with their dongle, but just couldn’t stay charged, plus weren’t the most comfortable.
-							<br><br>Now onto the Rog Cetra Speednovas, and dang these are great! 
-							<br>They sound just as good as my AirPod pro’s, the audio is clear with no hiccups, and has fantastic range. 
-							<br>I love not having to worry about a wire, and they recharge fast in the case. The microphone is great too. 
-							<br>My only gripe is that there is no easy way to store the dongle with the carrying case so I’ll have to plan to bring that separately somehow whenever I go on a trip. 
-							<br>I’d highly recommend these to anyone who’s had a hard time finding the perfect earbuds since I went through that enough already. 
-							<br>I have every intention to change my review if I run into an issue with quality or performance in the future. But for now, they’re practically perfect!
-						  </p>
-					  </details>
-					</div>
-				  </div>
 				</div>
-	  
+
 				<!-- Sản phẩm 8 -->
 				<div class="spec-item">
-				  <img src="https://m.media-amazon.com/images/I/71PG+xR1HrL._SL1500_.jpg" alt="ASUS ROG Raikiri Pro OLED Display" class="spec-image"/>
-				  <h3 class="spec-title">ASUS ROG Raikiri Pro OLED Display</h3>
-				  <div class="spec-details">
-					<div class="spec-section">
-					  <span class="stars">
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="fas fa-star"></i>
-						  <i class="far fa-star"></i>
-					  </span>
-					  <span class="rating-value">(4/5)</span>
+					<img src="https://m.media-amazon.com/images/I/71PG+xR1HrL._SL1500_.jpg"
+						alt="ASUS ROG Raikiri Pro OLED Display" class="spec-image" />
+					<h3 class="spec-title">ASUS ROG Raikiri Pro OLED Display</h3>
+					<div class="spec-details">
+						<div class="spec-section">
+							<span class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</span>
+							<span class="rating-value">(4/5)</span>
+						</div>
+						<div class="spec-section">
+							<h4><span>By</span> Kaveh Bahrami <span>| Reviewed in the United States on October 11,
+									2024</span></h4>
+							<details class="product-details">
+								<summary>Details</summary>
+								<p>
+									I recently got the ASUS ROG Raikiri Pro, and it has completely elevated my gaming
+									experience.
+									<br>The OLED display is a standout feature, providing clear and useful information
+									right on the controller.
+									<br>The tri-mode connectivity ensures seamless switching between my PC and Xbox,
+									making it incredibly versatile.
+
+									<br><br>The re-mappable buttons and triggers, along with the four rear buttons,
+									offer a high level of customization, allowing me to tailor the controller to my
+									gaming style.
+									<br>The step and linear triggers provide precise control, which is especially useful
+									in racing and shooting games.
+									<br>The adjustable joystick sensitivity is another great feature, giving me the
+									exact responsiveness I need for different types of games.
+
+									<br><br>The 3.5mm jack with ESS DAC delivers excellent audio quality, enhancing my
+									overall gaming experience.
+									<br>The build quality is top-notch, and the controller feels comfortable during long
+									gaming sessions.
+
+									<br><br>Overall, the ASUS ROG Raikiri Pro is an exceptional controller packed with
+									features that cater to both casual and competitive gamers. Highly recommended!
+								</p>
+							</details>
+						</div>
 					</div>
-					<div class="spec-section">
-					  <h4><span>By</span> Kaveh Bahrami <span>| Reviewed in the United States on October 11, 2024</span></h4>
-					  <details class="product-details">
-						  <summary>Details</summary>
-						  <p>
-							I recently got the ASUS ROG Raikiri Pro, and it has completely elevated my gaming experience. 
-							<br>The OLED display is a standout feature, providing clear and useful information right on the controller. 
-							<br>The tri-mode connectivity ensures seamless switching between my PC and Xbox, making it incredibly versatile.
-	  
-							<br><br>The re-mappable buttons and triggers, along with the four rear buttons, offer a high level of customization, allowing me to tailor the controller to my gaming style. 
-							<br>The step and linear triggers provide precise control, which is especially useful in racing and shooting games. 
-							<br>The adjustable joystick sensitivity is another great feature, giving me the exact responsiveness I need for different types of games.
-							
-							<br><br>The 3.5mm jack with ESS DAC delivers excellent audio quality, enhancing my overall gaming experience. 
-							<br>The build quality is top-notch, and the controller feels comfortable during long gaming sessions.
-							
-							<br><br>Overall, the ASUS ROG Raikiri Pro is an exceptional controller packed with features that cater to both casual and competitive gamers. Highly recommended!
-						  </p>
-					  </details>
-					</div>
-				  </div>
 				</div>
-			  </div>
 			</div>
-		  </div>
-		<!-- End Review Section -->
+		</div>
+	</div>
+	<!-- End Review Section -->
 
-		<!-- Start Footer Section -->
-		<footer class="footer-section">
-			<div class="container relative">
+	<div id="footer"></div>
 
-				<div class="sofa-img">
-					<img src="/images/Strix-G18.png" alt="Image" class="img-fluid">
-				</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+	<script src="../wwwroot/js/custom.js"></script>
+	<!-- Assembling parts animation -->
+	<script>
+		window.onload = function () {
+			setTimeout(() => document.getElementById('screen').classList.add('assembled'), 200);
+			setTimeout(() => document.getElementById('keyboard').classList.add('assembled'), 400);
+			setTimeout(() => document.getElementById('back-cover').classList.add('assembled'), 600);
+		};
+	</script>
 
-				<div class="row">
-					<div class="col-lg-8">
-						<div class="subscription-form">
-							<h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
-
-							<form action="#" class="row g-3">
-								<div class="col-auto">
-									<input type="text" class="form-control" placeholder="Enter your name">
-								</div>
-								<div class="col-auto">
-									<input type="email" class="form-control" placeholder="Enter your email">
-								</div>
-								<div class="col-auto">
-									<button class="btn btn-primary" type="submit" aria-label="submit">
-										<span class="fa fa-paper-plane"></span>
-									</button>
-								</div>
-							</form>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="row g-5 mb-5">
-					<div class="col-lg-4">
-						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Shofy<span>.</span></a></div>
-						<p class="mb-4 text">We always search for the incredible, and we believe that you, too, share our passion for minimizing our environmental impact on the world. Our serious commitment to environment, social, and governance (ESG) issues aims to empower you and everyone else we work with to push forward for a more sustainable future. Let’s become sustainable — together.</p>
-
-						<ul class="list-unstyled custom-social">
-							<li><a href="https://www.facebook.com/" aria-label="Facebook"><span class="fa fa-brands fa-facebook-f"></span></a></li>
-							<li><a href="https://x.com/" aria-label="Twitter"><span class="fa fa-brands fa-twitter"></span></a></li>
-							<li><a href="https://www.instagram.com/" aria-label="Instagram"><span class="fa fa-brands fa-instagram"></span></a></li>
-							<li><a href="https://www.linkedin.com/" aria-label="Linkedin"><span class="fa fa-brands fa-linkedin"></span></a></li>
-						</ul>
-					</div>
-
-					<div class="col-lg-8">
-						<div class="row links-wrap">
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">About us</a></li>
-									<li><a href="#">Product</a></li>
-									<li><a href="#">Blog</a></li>
-									<li><a href="#">Contact us</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Support</a></li>
-									<li><a href="#">Knowledge base</a></li>
-									<li><a href="#">Live chat</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Jobs</a></li>
-									<li><a href="#">Our team</a></li>
-									<li><a href="#">Leadership</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Laptops</a></li>
-									<li><a href="#">Gears</a></li>
-									<li><a href="#">Accessories</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="border-top copyright">
-					<div class="row pt-4">
-						<div class="col-lg-8">
-							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
-                            </p>
-						</div>
-
-						<div class="col-lg-4 text-center text-lg-end">
-							<ul class="list-unstyled d-inline-flex ms-auto">
-								<li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-							</ul>
-						</div>
-
-					</div>
-				</div>
-
-			</div>
-		</footer>
-		<!-- End Footer Section -->	
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-		<script src="/script/custom.js"></script>
-		<!-- Assembling parts animation -->
-        <script>
-            window.onload = function() 
-            {
-                setTimeout(() => document.getElementById('screen').classList.add('assembled'), 200);
-                setTimeout(() => document.getElementById('keyboard').classList.add('assembled'), 400);
-                setTimeout(() => document.getElementById('back-cover').classList.add('assembled'), 600);
-            };
-        </script>
-
-		<!-- Script để xử lý mở/đóng details -->
-		<script>
-			document.querySelectorAll('details').forEach((detail) => {
-			  detail.addEventListener('toggle', function () {
+	<!-- Script để xử lý mở/đóng details -->
+	<script>
+		document.querySelectorAll('details').forEach((detail) => {
+			detail.addEventListener('toggle', function () {
 				const content = this.querySelector('.product-details p');
 				if (this.open) {
-				  content.style.maxHeight = 'none'; // Mở rộng
+					content.style.maxHeight = 'none'; // Mở rộng
 				} else {
-				  content.style.maxHeight = '0'; // Thu gọn
+					content.style.maxHeight = '0'; // Thu gọn
 				}
-			  });
 			});
-		  </script>
+		});
+	</script>
 
-	</body>
+</body>
 
 </html>
