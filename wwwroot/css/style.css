@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6a6a6a;
+  font-size: 14px;
+  background-color: #eff2f1;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  color: #2f2f2f;
+  text-decoration: underline;
+}
+a:hover {
+  color: #2f2f2f;
+  text-decoration: none;
+}
+a.more {
+  font-weight: 600;
+}
+
+.section-title {
+  color: #2f2f2f;
+}
+
+.untree_co-section {
+  padding: 7rem 0;
+}
+
+textarea {
+  height: auto !important;
+}
+
+.site-blocks-table {
+  overflow: auto;
+}
+.site-blocks-table .product-thumbnail {
+  width: 200px;
+}
+.site-blocks-table .btn {
+  padding: 2px 10px;
+}
+.site-blocks-table thead th {
+  padding: 30px;
+  text-align: center;
+  border-width: 0px !important;
+  vertical-align: middle;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+}
+.site-blocks-table td {
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+  color: rgba(0, 0, 0, 0.8);
+}
+.site-blocks-table tbody tr:first-child td {
+  border-top: 1px solid #3b5d50 !important;
+}
+.site-blocks-table .btn {
+  background: none !important;
+  color: hsl(0, 0%, 0%);
+  border: none;
+  height: auto !important;
+}
+
+.site-block-order-table th {
+  border-top: none !important;
+  border-bottom-width: 1px !important;
+}
+
+.site-block-order-table td,
+.site-block-order-table th {
+  color: hsl(0, 0%, 0%);
+}
+
+.couponcode-wrap input {
+  border-radius: 10px !important;
+}
+
+.text-primary {
+  color: hsl(157, 22%, 30%) !important;
+}
+
+.thankyou-icon {
+  position: relative;
+  color: hsl(157, 22%, 30%);
+}
+.thankyou-icon:before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(59, 93, 80, 0.2);
+}
+.quantity-container {
+  max-width: 120px;
+}
+.section-heading {
+  position: relative;
+  font-size: 60px;
+  font-weight: 600;
+  color: hwb(0 100% 0%);
+  background-color: hsl(160, 4%, 44%);
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+.section-reviews {
+  position: relative;
+  font-size: 60px;
+  font-weight: 600;
+  color: hwb(0 100% 0%);
+  background-color: hsl(0, 0%, 0%);
+  text-align: center;
+  margin-top: 35px;
+}
+
+/* Giữ lại code đoạn code CSS trên này đừng thay đổi nha*/
