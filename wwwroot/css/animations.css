@@ -1,0 +1,139 @@
+.heart-icon {
+    position: absolute;
+    top: 0px;
+    left: 270px;
+    font-size: 20px;
+    cursor: pointer;
+    color: gray;
+    z-index: 10;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  .heart-icon.red {
+    color: red;
+  }
+
+  .heart-icon:hover {
+    opacity: 0.8;
+  }
+
+  .heart-icon.beat {
+    animation: heartbeat 0.5s ease-in-out;
+    animation-fill-mode: forwards; /* Đảm bảo trạng thái cuối cùng được giữ lại */
+    animation-iteration-count: 1; /* Chỉ chạy một lần mỗi khi thêm lớp */
+  }
+
+  /* Reset animation mỗi lần */
+  .heart-icon {
+    animation: none; /* Đặt mặc định là none */
+  }
+
+  .heart-icon.beat {
+    animation: heartbeat 0.5s ease-in-out; /* Chạy lại khi thêm lớp */
+  }
+
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    20% {
+      transform: scale(1.2);
+    }
+    40% {
+      transform: scale(0.9);
+    }
+    60% {
+      transform: scale(1.1);
+    }
+    80% {
+      transform: scale(0.95);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .superdeals {
+    color: #fff; /* Màu cơ bản (sẽ bị gradient lấn át) */
+    background: linear-gradient(
+      90deg,
+      #ff4500,
+      /* Màu đỏ cam (ngọn lửa) */ #ff8c00,
+      /* Màu cam sáng */ #ffd700,
+      /* Màu vàng (tia lửa) */ #ff4500
+    );
+    -webkit-background-clip: text; /* Cắt gradient vào chữ */
+    background-clip: text;
+    color: transparent; /* Làm chữ trong suốt để gradient hiển thị */
+    text-align: center; /* Căn giữa (tùy chọn) */
+    padding: 5px; /* Khoảng cách nhỏ */
+    animation: fireAnimation 2s infinite alternate; /* Hiệu ứng dao động */
+    text-shadow: 0 0 10px rgba(255, 69, 0, 0.8),
+      /* Ánh sáng đỏ cam */ 0 0 20px rgba(255, 140, 0, 0.6),
+      /* Ánh sáng cam */ 0 0 30px rgba(255, 215, 0, 0.4); /* Ánh sáng vàng */
+    position: relative; /* Hỗ trợ hiệu ứng bổ sung */
+  }
+
+  /* Animation cho hiệu ứng bốc cháy */
+  @keyframes fireAnimation {
+    0% {
+      transform: scale(1) rotate(0deg);
+      opacity: 0.9;
+    }
+    50% {
+      transform: scale(1.05) rotate(2deg); /* Phóng to và nghiêng nhẹ */
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1) rotate(-2deg);
+      opacity: 0.9;
+    }
+  }
+
+  /* Hiệu ứng cháy bổ sung khi hover (tùy chọn) */
+  .superdeals:hover {
+    text-shadow: 0 0 15px rgba(255, 69, 0, 1),
+      0 0 25px rgba(255, 140, 0, 0.8), 0 0 40px rgba(255, 215, 0, 0.6);
+    animation: fireHover 0.5s infinite;
+  }
+
+  @keyframes fireHover {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  /* Hiệu ứng cho Big Save */
+.bigsave {
+    color: #fff;
+    background: linear-gradient(90deg, #ff69b4, #ffb6c1, #ff69b4); /* Gradient màu hồng */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    padding: 5px;
+    animation: pinkFireAnimation 2s infinite alternate; /* Animation tương tự SuperDeals */
+    text-shadow: 0 0 10px rgba(255, 105, 180, 0.8), 0 0 20px rgba(255, 182, 193, 0.6), 0 0 30px rgba(255, 105, 180, 0.4); /* Text shadow màu hồng */
+    position: relative;
+}
+
+@keyframes pinkFireAnimation {
+    0% { transform: scale(1) rotate(0deg); opacity: 0.9; }
+    50% { transform: scale(1.05) rotate(2deg); opacity: 1; }
+    100% { transform: scale(1) rotate(-2deg); opacity: 0.9; }
+}
+
+.bigsave:hover {
+    text-shadow: 0 0 15px rgba(255, 105, 180, 1), 0 0 25px rgba(255, 182, 193, 0.8), 0 0 40px rgba(255, 105, 180, 0.6);
+    animation: pinkFireHover 0.5s infinite;
+}
+
+@keyframes pinkFireHover {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}

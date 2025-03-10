@@ -1,0 +1,38 @@
+.product-info {
+    padding: 10px;
+  }
+  .product-item {
+    position: relative; /* Đảm bảo mọi .product-item đều có relative */
+    min-height: 450px; /* Đặt chiều cao tối thiểu để giữ đồng nhất giữa các hàng */
+    overflow: visible;
+  }
+  .product-info p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+
+  .price {
+    color: #ff0000;
+    font-weight: bold;
+  }
+
+  .original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 5px;
+  }
+
+  .discount {
+    color: white;
+    background-color: #ff0000;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .save-amount {
+    color: #0066c0;
+    font-weight: bold;
+  }
+  
