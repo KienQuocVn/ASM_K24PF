@@ -1,0 +1,23 @@
+.best-seller-ribbon {
+    position: absolute !important;
+    top: -24px;
+    left: -24px;
+    background-color: #ff6200; /* Màu cam giống trong ảnh */
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px 0 0 0;
+    clip-path: polygon(
+      0% 0%,
+      90% 0%,
+      100% 50%,
+      90% 100%,
+      0% 100%
+    ); /* Tạo hình dạng tam giác */
+    z-index: 10; /* Đảm bảo nhãn nằm trên ảnh */
+  }
+  .relative {
+    position: relative;
+  }
+
