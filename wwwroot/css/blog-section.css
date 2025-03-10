@@ -1,0 +1,148 @@
+/* -----------------------------------------------------------------*/
+
+/* Container chứa các thẻ */
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cột với độ rộng bằng nhau */
+  gap: 20px; /* Khoảng cách giữa các thẻ */
+  max-width: 1500px; /* Giới hạn chiều rộng tổng thể */
+  margin: 0 auto; /* Căn giữa container */
+}
+
+/* Định dạng cho thẻ bài viết */
+.ArticleItem__articleItem__\+Qu30 {
+  background-color: hsl(0, 0%, 100%);
+  border: solid 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 24px;
+  max-width: 488px;
+  width: 100%;
+  position: relative;
+  display: flex; /* Chuyển sang flex để dễ kiểm soát bố cục */
+  flex-direction: column; /* Sắp xếp các phần tử theo cột */
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  min-height: 500px; /* Đặt chiều cao tối thiểu để thẻ đồng đều */
+}
+
+/* Hiệu ứng hover: viền sáng màu trắng */
+.ArticleItem__articleItem__\+Qu30:hover {
+  border: 1px solid hsl(0, 100%, 50%);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Định dạng hình ảnh */
+.ArticleItem__photo__0fHHU img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Định dạng danh mục */
+.ArticleItem__category__7uNGt {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ff0000;
+  height: 24px; /* Cố định chiều cao để không lệch */
+  line-height: 24px; /* Căn giữa theo chiều dọc */
+}
+
+.ArticleItem__category__7uNGt span:first-child {
+  margin-right: 5px;
+}
+
+/* Định dạng tiêu đề */
+.ArticleItem__title__CTnaw h2 {
+  font-size: 24px;
+  margin: 8px 0;
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+  height: 60px; /* Cố định chiều cao cho tiêu đề */
+  overflow: hidden; /* Ẩn phần tiêu đề bị tràn */
+  text-overflow: ellipsis;
+}
+
+/* Định dạng mô tả */
+.ArticleItem__description__2SON7 {
+  margin-top: 8px;
+  height: 48px; /* Cố định chiều cao cho mô tả */
+}
+
+.ArticleItem__description__2SON7 p {
+  font-size: 12px;
+  color: hsl(0, 0%, 45%);
+  margin: 0;
+  text-overflow: ellipsis;
+}
+
+/* Định dạng bốn góc sáng khi hover */
+.ArticleItem__corner1__E6M\+k,
+.ArticleItem__corner2__1Ptg0,
+.ArticleItem__corner3__-Ui4U,
+.ArticleItem__corner4__ToK2s {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+/* Định vị bốn góc */
+.ArticleItem__corner1__E6M\+k {
+  top: -1px;
+  left: -1px;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+}
+
+.ArticleItem__corner2__1Ptg0 {
+  top: -1px;
+  right: -1px;
+  border-top: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+
+.ArticleItem__corner3__-Ui4U {
+  bottom: -1px;
+  left: -1px;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid transparent;
+}
+
+.ArticleItem__corner4__ToK2s {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+
+/* Hiệu ứng sáng góc khi hover */
+.ArticleItem__articleItem__\+Qu30:hover .ArticleItem__corner1__E6M\+k {
+  border-top: 2px solid hsl(0, 100%, 50%);
+  border-left: 2px solid hsl(0, 100%, 50%);
+}
+
+.ArticleItem__articleItem__\+Qu30:hover .ArticleItem__corner2__1Ptg0 {
+  border-top: 2px solid hsl(0, 100%, 50%);
+  border-right: 2px solid hsl(0, 100%, 50%);
+}
+
+.ArticleItem__articleItem__\+Qu30:hover .ArticleItem__corner3__-Ui4U {
+  border-bottom: 2px solid hsl(0, 100%, 50%);
+  border-left: 2px solid hsl(0, 100%, 50%);
+}
+
+.ArticleItem__articleItem__\+Qu30:hover .ArticleItem__corner4__ToK2s {
+  border-bottom: 2px solid hsl(0, 100%, 50%);
+  border-right: 2px solid hsl(0, 100%, 50%);
+}
+
+/* Định dạng link */
+.ArticleItem__articleItem__\+Qu30 a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
